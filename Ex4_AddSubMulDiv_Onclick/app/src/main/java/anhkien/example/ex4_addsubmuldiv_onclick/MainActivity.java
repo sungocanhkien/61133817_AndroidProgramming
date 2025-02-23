@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity {
         float So1 = Float.parseFloat(Sothu1);
         float So2 = Float.parseFloat(Sothu2);
 
-        float tong = So1 - So2;
+        float tru = So1 - So2;
 
         EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
-        String chuoiKQ = String.valueOf(tong);
+        String chuoiKQ = String.valueOf(tru);
         editTextKQ.setText(chuoiKQ);
     }
     void XuLyNhan(View view){
@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
         float So1 = Float.parseFloat(Sothu1);
         float So2 = Float.parseFloat(Sothu2);
 
-        float tong = So1 * So2;
+        float nhan = So1 * So2;
 
         EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
-        String chuoiKQ = String.valueOf(tong);
+        String chuoiKQ = String.valueOf(nhan);
         editTextKQ.setText(chuoiKQ);
     }
     void XuLyChia(View view){
@@ -84,11 +84,11 @@ public class MainActivity extends AppCompatActivity {
         float So1 = Float.parseFloat(Sothu1);
         float So2 = Float.parseFloat(Sothu2);
 
-        float tong = So1 / So2;
+        float thuong = So1 / So2;
 
         EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
-        String chuoiKQ = String.valueOf(tong);
+        String chuoiKQ = String.valueOf(thuong);
         editTextKQ.setText(chuoiKQ);
     }
 }

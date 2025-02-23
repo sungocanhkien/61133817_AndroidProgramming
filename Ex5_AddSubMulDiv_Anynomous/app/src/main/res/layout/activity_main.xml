@@ -10,10 +10,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="50dp"
+        android:padding="20dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="15dp"
             android:text="MÁY TÍNH BỎ TÚI"
             android:textSize="26dp"
             android:textAlignment="center"
@@ -25,15 +27,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="Số A:"
-            android:textSize="20dp">
-
+            android:textSize="20dp"
+            android:textStyle="bold">
         </TextView>
-
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtSoA"
+            android:layout_marginLeft="5dp"
+            android:hint="Mời bạn nhập vào một số!">
+        </EditText>
     </LinearLayout>
 
 

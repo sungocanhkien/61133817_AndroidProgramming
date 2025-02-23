@@ -35,5 +35,8 @@ public class MainActivity extends AppCompatActivity {
         int soB = Integer.parseInt(trsB);
 
         int tong = soA + soB;
+        String StrTong = String.valueOf(tong);
+
+        editTextKQ.setText(StrTong);
     }
 }

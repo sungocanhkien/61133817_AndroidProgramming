@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         float tong = So1 + So2;
 
-        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+        EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
         String chuoiKQ = String.valueOf(tong);
         editTextKQ.setText(chuoiKQ);
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         float tong = So1 - So2;
 
-        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+        EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
         String chuoiKQ = String.valueOf(tong);
         editTextKQ.setText(chuoiKQ);
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         float tong = So1 * So2;
 
-        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+        EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
         String chuoiKQ = String.valueOf(tong);
         editTextKQ.setText(chuoiKQ);
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
         float tong = So1 / So2;
 
-        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+        EditText editTextKQ = (EditText) findViewById(R.id.edtKQ);
 
         String chuoiKQ = String.valueOf(tong);
         editTextKQ.setText(chuoiKQ);

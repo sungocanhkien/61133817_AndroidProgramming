@@ -33,7 +33,12 @@ public class MainActivity extends AppCompatActivity {
         float So1 = Float.parseFloat(Sothu1);
         float So2 = Float.parseFloat(Sothu2);
 
-        
+        float tong = So1 + So2;
+
+        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+
+        String chuoiKQ = String.valueOf(tong);
+        editTextKQ.setText(chuoiKQ);
     }
     void XuLyTru(View view){
 

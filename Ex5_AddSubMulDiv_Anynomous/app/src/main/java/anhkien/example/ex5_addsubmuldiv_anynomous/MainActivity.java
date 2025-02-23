@@ -33,9 +33,17 @@ public class MainActivity extends AppCompatActivity {
     View.OnClickListener XuLyTong = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+            String strSoA = editTextSoA.getText().toString();
+            String strSoB = editTextSoB.getText().toString();
 
+            float SoA = Float.valueOf(strSoA);
+            float SoB = Float.valueOf(strSoB);
+
+            float Tong = SoA + SoB;
+            String StrKQ = String.valueOf(Tong);
+            textViewKQ.setText(StrKQ);
         }
-    }
+    };
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);
@@ -43,5 +51,6 @@ public class MainActivity extends AppCompatActivity {
         buttonHieu = (Button) findViewById(R.id.btnHieu);
         buttonTich = (Button) findViewById(R.id.btnTich);
         buttonThuong = (Button) findViewById(R.id.btnThuong);
+        textViewKQ = (TextView) findViewById(R.id.edtKQ);
     }
 }

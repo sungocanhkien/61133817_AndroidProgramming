@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-    void XuLyCong(View view){
+    public void XuLyCong(View view){
         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         String chuoiKQ = String.valueOf(tong);
         editTextKQ.setText(chuoiKQ);
     }
-    void XuLyTru(View view){
+    public void XuLyTru(View view){
         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         String chuoiKQ = String.valueOf(tru);
         editTextKQ.setText(chuoiKQ);
     }
-    void XuLyNhan(View view){
+    public void XuLyNhan(View view){
         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         String chuoiKQ = String.valueOf(nhan);
         editTextKQ.setText(chuoiKQ);
     }
-    void XuLyChia(View view){
+    public void XuLyChia(View view){
         EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
         EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 

@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 float SoA = Float.valueOf(strSoA);
                 float SoB = Float.valueOf(strSoB);
 
-                float Tich = SoA * SoB;
-                String StrKQ = String.valueOf(Tich);
+                float Thuong = SoA / SoB;
+                String StrKQ = String.valueOf(Thuong);
                 textViewKQ.setText(StrKQ);
             }
         });

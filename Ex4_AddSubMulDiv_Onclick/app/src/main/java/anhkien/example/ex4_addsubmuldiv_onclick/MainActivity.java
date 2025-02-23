@@ -41,12 +41,54 @@ public class MainActivity extends AppCompatActivity {
         editTextKQ.setText(chuoiKQ);
     }
     void XuLyTru(View view){
+        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
+        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 
+        String Sothu1 = editTextSo1.getText().toString();
+        String Sothu2 = editTextSo2.getText().toString();
+
+        float So1 = Float.parseFloat(Sothu1);
+        float So2 = Float.parseFloat(Sothu2);
+
+        float tong = So1 - So2;
+
+        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+
+        String chuoiKQ = String.valueOf(tong);
+        editTextKQ.setText(chuoiKQ);
     }
     void XuLyNhan(View view){
+        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
+        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 
+        String Sothu1 = editTextSo1.getText().toString();
+        String Sothu2 = editTextSo2.getText().toString();
+
+        float So1 = Float.parseFloat(Sothu1);
+        float So2 = Float.parseFloat(Sothu2);
+
+        float tong = So1 * So2;
+
+        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+
+        String chuoiKQ = String.valueOf(tong);
+        editTextKQ.setText(chuoiKQ);
     }
     void XuLyChia(View view){
+        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
+        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
 
+        String Sothu1 = editTextSo1.getText().toString();
+        String Sothu2 = editTextSo2.getText().toString();
+
+        float So1 = Float.parseFloat(Sothu1);
+        float So2 = Float.parseFloat(Sothu2);
+
+        float tong = So1 / So2;
+
+        EditText editTextKQ = (EditText) findViewById(R.id.btnKQ);
+
+        String chuoiKQ = String.valueOf(tong);
+        editTextKQ.setText(chuoiKQ);
     }
 }

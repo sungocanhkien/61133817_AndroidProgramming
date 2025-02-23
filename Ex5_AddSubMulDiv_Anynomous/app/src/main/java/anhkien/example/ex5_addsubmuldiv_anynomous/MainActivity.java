@@ -26,12 +26,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        TimView();
     }
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);
         buttonTong = (Button) findViewById(R.id.btnTong);
-        
+        buttonHieu = (Button) findViewById(R.id.btnHieu);
+        buttonTich = (Button) findViewById(R.id.btnTich);
+        buttonThuong = (Button) findViewById(R.id.btnThuong);
     }
 }

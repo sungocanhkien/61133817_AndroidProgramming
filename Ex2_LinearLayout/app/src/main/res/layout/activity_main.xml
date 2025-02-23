@@ -28,4 +28,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         />
+    <Button
+        android:id="@+id/nut3"
+        android:text="Nút số 3"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="20dp"
+        android:background="@color/design_default_color_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        />
+
 </LinearLayout>

@@ -80,7 +80,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_margin="2dp"
-            android:onClick="XuLyTong">
+            >
         </Button>
         <Button
             android:id="@+id/btnHieu"
@@ -90,7 +90,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_margin="2dp"
-            android:onClick="XuLyHieu">
+            >
         </Button>
         <Button
             android:id="@+id/btnTich"
@@ -100,7 +100,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_margin="2dp"
-            android:onClick="XuLyTich">
+            >
         </Button>
         <Button
             android:id="@+id/btnThuong"
@@ -110,7 +110,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_margin="2dp"
-            android:onClick="XuLyThuong">
+            >
         </Button>
     </LinearLayout>
     <LinearLayout

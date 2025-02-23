@@ -1,6 +1,7 @@
 package anhkien.example.ex5_addsubmuldiv_anynomous;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -27,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         TimView();
+    }
+
+    View.OnClickListener XuLyTong = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+
+        }
     }
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);

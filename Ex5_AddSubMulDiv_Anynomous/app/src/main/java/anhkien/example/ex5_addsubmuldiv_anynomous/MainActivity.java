@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             textViewKQ.setText(StrKQ);
         }
     };
-    
+
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);
@@ -98,6 +98,6 @@ public class MainActivity extends AppCompatActivity {
         buttonHieu = (Button) findViewById(R.id.btnHieu);
         buttonTich = (Button) findViewById(R.id.btnTich);
         buttonThuong = (Button) findViewById(R.id.btnThuong);
-        textViewKQ = (TextView) findViewById(R.id.edtKQ);
+        textViewKQ = (EditText) findViewById(R.id.edtKQ);
     }
 }

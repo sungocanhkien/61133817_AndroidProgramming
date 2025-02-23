@@ -131,7 +131,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/edtKQ"
             android:layout_marginLeft="5dp"
-            android:hint="Nơi hiện thị kết quả!">
+            android:hint="Nơi hiện thị kết quả!"
+            android:enabled="false">
         </EditText>
     </LinearLayout>
 

@@ -77,6 +77,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_margin="2dp"
             android:onClick="XuLyTong">
         </Button>
@@ -85,6 +87,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_margin="2dp"
             android:onClick="XuLyHieu">
         </Button>
@@ -93,6 +97,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="*"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_margin="2dp"
             android:onClick="XuLyTich">
         </Button>
@@ -100,7 +106,9 @@
             android:id="@+id/btnThuong"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"
+            android:text="/"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_margin="2dp"
             android:onClick="XuLyThuong">
         </Button>

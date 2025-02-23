@@ -81,28 +81,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="+">
+            android:text="+"
+            android:onClick="XuLyCong">
         </Button>
         <Button
             android:id="@+id/btnTru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="-">
+            android:text="-"
+            android:onClick="XuLyTru">
         </Button>
         <Button
             android:id="@+id/btnNhan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="x">
+            android:text="x"
+            android:onClick="XuLyNhan">
         </Button>
         <Button
             android:id="@+id/btnChia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="/">
+            android:text="/"
+            android:onClick="XuLyChia">
         </Button>
 
     </LinearLayout>

@@ -31,7 +31,21 @@ public class MainActivity extends AppCompatActivity {
         buttonTong.setOnClickListener(XuLyTong);
         buttonHieu.setOnClickListener(XuLyHieu);
         buttonTich.setOnClickListener(XuLyTich);
-        buttonThuong.setOnClickListener(XuLyThuong);
+        //buttonThuong.setOnClickListener(XuLyThuong);
+        buttonThuong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String strSoA = editTextSoA.getText().toString();
+                String strSoB = editTextSoB.getText().toString();
+
+                float SoA = Float.valueOf(strSoA);
+                float SoB = Float.valueOf(strSoB);
+
+                float Tich = SoA * SoB;
+                String StrKQ = String.valueOf(Tich);
+                textViewKQ.setText(StrKQ);
+            }
+        });
     }
 
     View.OnClickListener XuLyTong = new View.OnClickListener() {
@@ -76,20 +90,7 @@ public class MainActivity extends AppCompatActivity {
             textViewKQ.setText(StrKQ);
         }
     };
-    View.OnClickListener XuLyThuong = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            String strSoA = editTextSoA.getText().toString();
-            String strSoB = editTextSoB.getText().toString();
-
-            float SoA = Float.valueOf(strSoA);
-            float SoB = Float.valueOf(strSoB);
-
-            float Thuong = SoA / SoB;
-            String StrKQ = String.valueOf(Thuong);
-            textViewKQ.setText(StrKQ);
-        }
-    };
+    
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);

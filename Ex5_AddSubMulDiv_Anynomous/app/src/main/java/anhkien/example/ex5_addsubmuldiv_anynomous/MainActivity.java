@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextSoA;
     EditText editTextSoB;
     Button buttonTong, buttonHieu, buttonTich, buttonThuong;
-    TextView textViewKQ;
+    EditText textViewKQ;
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         buttonHieu = (Button) findViewById(R.id.btnHieu);
         buttonTich = (Button) findViewById(R.id.btnTich);
         buttonThuong = (Button) findViewById(R.id.btnThuong);
-        textViewKQ = (TextView) findViewById(R.id.edtKQ);
+        textViewKQ = (EditText) findViewById(R.id.edtKQ);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

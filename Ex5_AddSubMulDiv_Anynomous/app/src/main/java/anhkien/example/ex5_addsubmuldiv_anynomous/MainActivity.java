@@ -1,6 +1,9 @@
 package anhkien.example.ex5_addsubmuldiv_anynomous;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +12,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
+    EditText editTextSoA;
+    EditText editTextSoB;
+    Button buttonTong, buttonHieu, buttonTich, buttonThuong;
+    TextView textViewKQ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+    }
+    void TimView(){
+        editTextSoA = (EditText) findViewById(R.id.edtSoA);
+        editTextSoB = (EditText) findViewById(R.id.edtSoB);
+        buttonTong = (Button) findViewById(R.id.btnTong);
+        
     }
 }

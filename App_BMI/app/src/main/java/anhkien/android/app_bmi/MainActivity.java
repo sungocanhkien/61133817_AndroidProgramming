@@ -1,6 +1,7 @@
 package anhkien.android.app_bmi;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -66,7 +67,17 @@ public class MainActivity extends AppCompatActivity {
                 String str1 = _height.getText().toString();
                 String str2 = _weight.getText().toString();
                 if(user.equals("0")){
-                    Toast.makeText()
+                    Toast.makeText(MainActivity.this, "Hãy chọn giới tính của bạn!", Toast.LENGTH_SHORT).show();
+                }
+                else if (TextUtils.isEmpty(str1)){
+                    _height.setError("Hãy nhập chiều cao!");
+                    _height.requestFocus();
+                    return;
+                }
+                else if (TextUtils.isEmpty(str2)){
+                    _height.setError("Hãy nhập cân nặng!");
+                    _height.requestFocus();
+                    return;
                 }
             }
         });

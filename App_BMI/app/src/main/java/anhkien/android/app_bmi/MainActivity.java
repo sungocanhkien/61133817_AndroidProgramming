@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout malelayout, femalelayout;
     Button btn;
     TextView result, condition;
+    float h = 0, w=0, bmi=0;
+    String user = "0";
+    String res;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        height=findViewById(R.id.height);
+        weight=findViewById(R.id.weight);
+        male=findViewById(R.id.immale);
+        female=findViewById()
     }
 }

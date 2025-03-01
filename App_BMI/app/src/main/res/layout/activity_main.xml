@@ -135,7 +135,18 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:id="@+id/btn"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:text="CALCULATE"
         android:layout_below="@+id/gender">
     </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:id="@+id/result"
+        android:background="@android:color/holo_green_light"
+        android:layout_below="@id/btn">
+    </TextView>
 </RelativeLayout>

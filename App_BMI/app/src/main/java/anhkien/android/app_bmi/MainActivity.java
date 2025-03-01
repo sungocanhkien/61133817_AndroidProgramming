@@ -14,11 +14,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    EditText height, weight;
-    ImageView male, female;
+    EditText _height, _weight;
+    ImageView _male, _female;
     LinearLayout malelayout, femalelayout;
-    Button btn;
-    TextView result, condition;
+    Button _btn;
+    TextView _result, condition;
     float h = 0, w=0, bmi=0;
     String user = "0";
     String res;
@@ -33,9 +33,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        height=findViewById(R.id.height);
-        weight=findViewById(R.id.weight);
-        male=findViewById(R.id.immale);
-        female=findViewById()
+        _height=findViewById(R.id.height);_weight=findViewById(R.id.weight);
+        _male=findViewById(R.id.immale);
+        _female=findViewById(R.id.imfemale);
+        _btn=findViewById(R.id.btn);
+
     }
 }

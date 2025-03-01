@@ -87,6 +87,26 @@ public class MainActivity extends AppCompatActivity {
         w=Float.parseFloat(_weight.getText().toString());
         float  hm;
         hm = h/100;
-        bmi = (h/(hm*hm));
+        bmi = (w/(hm*hm));
+        _result.setText(Float.toString(bmi));
+        if(bmi>=35){
+            res="";
+            condition.setText(res);
+        }
+        if(bmi>=35){
+            res="";
+            condition.setText(res);
+        }
+        if(bmi>=35){
+            res="";
+            condition.setText(res);
+        }
+        if(bmi>=35){
+            res="";
+            condition.setText(res);
+        }
+        else{
+            
+        }
     }
 }

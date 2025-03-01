@@ -90,23 +90,24 @@ public class MainActivity extends AppCompatActivity {
         bmi = (w/(hm*hm));
         _result.setText(Float.toString(bmi));
         if(bmi>=35){
-            res="";
+            res="Béo phì nguy hiểm";
             condition.setText(res);
         }
-        if(bmi>=35){
-            res="";
+        if(bmi>=30){
+            res="Béo phì";
             condition.setText(res);
         }
-        if(bmi>=35){
-            res="";
+        if(bmi>=25){
+            res="Thừa cân";
             condition.setText(res);
         }
-        if(bmi>=35){
-            res="";
+        if(bmi>=18.5){
+            res="Cân đối";
             condition.setText(res);
         }
         else{
-            
+            res="Thiếu cân";
+            condition.setText(res);
         }
     }
 }

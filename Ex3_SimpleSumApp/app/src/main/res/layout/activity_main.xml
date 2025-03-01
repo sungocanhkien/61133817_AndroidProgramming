@@ -6,7 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PHÉP TỔNG"
+        android:layout_marginTop=""
+        android:layout_marginLeft="148dp"
+        android:layout_marginRight="100dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark">
+    </TextView>
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"

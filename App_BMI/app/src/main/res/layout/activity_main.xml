@@ -23,6 +23,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:orientation="vertical"
         android:layout_below="@id/bmi"
         android:layout_marginLeft="10dp"
@@ -32,6 +33,7 @@
 
         <TextView
             android:id="@+id/txtheight"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Height"
@@ -51,6 +53,7 @@
         </EditText>
         <TextView
             android:id="@+id/txtweight"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Weight"
@@ -73,6 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/gender"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:layout_below="@id/data">
         <LinearLayout
@@ -84,15 +88,16 @@
                 android:id="@+id/txtmale"
                 android:gravity="center"
                 android:layout_marginLeft="5dp"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Male"
-                android:textColor="@android:color/system_accent1_800"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="15dp"
                 android:textStyle="bold"/>
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:layout_gravity="center"
                 android:src=""
                 android:layout_marginLeft="10dp"
                 android:id="@+id/immale">
@@ -103,24 +108,34 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="1">
+
             <TextView
                 android:id="@+id/txtfemale"
-                android:gravity="center"
-                android:layout_marginRight="5dp"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
                 android:text="Female"
-                android:textColor="@android:color/system_accent1_800"
+                android:textColor="@android:color/holo_purple"
                 android:textSize="15dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="90dp"
+                android:layout_gravity="center"
                 android:src=""
                 android:layout_marginRight="10dp"
                 android:id="@+id/imfemale">
             </ImageView>
         </LinearLayout>
-
-    </LinearLayout>
+    </LinearLayout>+5
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btn"
+        android:text="CALCULATE"
+        android:layout_below="@+id/gender">
+    </Button>
 </RelativeLayout>

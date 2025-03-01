@@ -1,6 +1,11 @@
 package anhkien.android.app_bmi;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +14,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+    EditText height, weight;
+    ImageView male, female;
+    LinearLayout malelayout, femalelayout;
+    Button btn;
+    TextView result, condition;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         femalelayout=findViewById(R.id.felayout);
         _btn=findViewById(R.id.btn);
         _result=findViewById(R.id.result);
+        condition=findViewById(R.id.condition);
 
         malelayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 _female.setColorFilter(getResources().getColor(com.google.android.material.R.color.design_default_color_on_primary));
                 _male.setColorFilter(getResources().getColor(androidx.cardview.R.color.cardview_light_background));
-                user="feMale";
+                user="FeMale";
             }
         });
         _btn.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 String str2 = _weight.getText().toString();
                 if(user.equals("0")){
                     Toast.makeText(MainActivity.this, "Hãy chọn giới tính của bạn!", Toast.LENGTH_SHORT).show();
+                    return;
                 }
                 else if (TextUtils.isEmpty(str1)){
                     _height.setError("Hãy nhập chiều cao!");
@@ -91,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         float  hm;
         hm = h/100;
         bmi = (w/(hm*hm));
-        _result.setText(Float.toString(bmi));
+        _result.setText(String.format("BMI: %.2f",bmi));
         if(bmi>=35){
             res="Béo phì nguy hiểm";
             condition.setText(res);

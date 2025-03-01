@@ -39,13 +39,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="52dp"
         android:text="Số a"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="18sp"
         android:textStyle=""
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/edtA"

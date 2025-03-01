@@ -138,7 +138,7 @@
                 android:id="@+id/imfemale">
             </ImageView>
         </LinearLayout>
-    </LinearLayout>+5
+    </LinearLayout>
     <Button
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"

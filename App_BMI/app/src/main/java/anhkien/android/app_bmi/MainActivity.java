@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
                     _weight.requestFocus();
                     return;
                 }
+                else {
+                    calculate();
+                }
             }
         });
     }
@@ -93,15 +96,15 @@ public class MainActivity extends AppCompatActivity {
             res="Béo phì nguy hiểm";
             condition.setText(res);
         }
-        if(bmi>=30){
+        else if(bmi>=30){
             res="Béo phì";
             condition.setText(res);
         }
-        if(bmi>=25){
+        else if(bmi>=25){
             res="Thừa cân";
             condition.setText(res);
         }
-        if(bmi>=18.5){
+        else if(bmi>=18.5){
             res="Cân đối";
             condition.setText(res);
         }

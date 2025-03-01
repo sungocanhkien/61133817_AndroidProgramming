@@ -75,11 +75,18 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 else if (TextUtils.isEmpty(str2)){
-                    _height.setError("Hãy nhập cân nặng!");
-                    _height.requestFocus();
+                    _weight.setError("Hãy nhập cân nặng!");
+                    _weight.requestFocus();
                     return;
                 }
             }
         });
+    }
+    private void calculate(){
+        h=Float.parseFloat(_height.getText().toString());
+        w=Float.parseFloat(_weight.getText().toString());
+        float  hm;
+        hm = h/100;
+        bmi = (h/(hm*hm));
     }
 }

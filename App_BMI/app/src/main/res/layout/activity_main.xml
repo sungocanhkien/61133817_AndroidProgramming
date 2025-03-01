@@ -154,8 +154,18 @@
         android:layout_height="50dp"
         android:textSize="15dp"
         android:textStyle="normal"
+        android:gravity="center"
         android:id="@+id/result"
         android:background="@android:color/holo_green_light"
         android:layout_below="@id/btn">
     </TextView>
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:background="@color/cardview_light_background"
+        android:layout_below="@id/result"/>
 </RelativeLayout>

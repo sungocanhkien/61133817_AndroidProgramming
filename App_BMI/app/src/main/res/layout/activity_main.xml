@@ -9,7 +9,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/bim"
+        android:id="@+id/bmi"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
@@ -19,13 +19,20 @@
         android:layout_margin="30dp"
         android:background="@android:color/holo_blue_dark"
         android:text="BMI APP"/>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/bmi">
+
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtheight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Height"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="15dp"
+            android:textStyle="bold" />
     </LinearLayout>
 </RelativeLayout>

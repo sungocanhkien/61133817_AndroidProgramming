@@ -7,6 +7,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -47,7 +48,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 _male.setColorFilter(getResources().getColor(com.google.android.material.R.color.design_default_color_on_primary));
-
+                _female.setColorFilter(getResources().getColor(androidx.cardview.R.color.cardview_light_background));
+                user="Male";
+            }
+        });
+        femalelayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                _female.setColorFilter(getResources().getColor(com.google.android.material.R.color.design_default_color_on_primary));
+                _male.setColorFilter(getResources().getColor(androidx.cardview.R.color.cardview_light_background));
+                user="feMale";
+            }
+        });
+        _btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String str1 = _height.getText().toString();
+                String str2 = _weight.getText().toString();
+                if(user.equals("0")){
+                    Toast.makeText()
+                }
             }
         });
     }

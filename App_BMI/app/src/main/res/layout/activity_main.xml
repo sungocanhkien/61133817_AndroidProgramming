@@ -9,8 +9,11 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:id="@+id/bim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        
+        android:text="BMI APP"/>
 </RelativeLayout>

@@ -87,6 +87,7 @@
         android:orientation="horizontal"
         android:layout_below="@id/data">
         <LinearLayout
+            android:id="@+id/mlayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -111,6 +112,7 @@
             </ImageView>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/felayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"

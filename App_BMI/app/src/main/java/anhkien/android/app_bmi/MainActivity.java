@@ -1,6 +1,7 @@
 package anhkien.android.app_bmi;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -37,6 +38,17 @@ public class MainActivity extends AppCompatActivity {
         _male=findViewById(R.id.immale);
         _female=findViewById(R.id.imfemale);
         _btn=findViewById(R.id.btn);
+        malelayout=findViewById(R.id.mlayout);
+        femalelayout=findViewById(R.id.felayout);
+        _btn=findViewById(R.id.btn);
+        _result=findViewById(R.id.result);
 
+        malelayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                _male.setColorFilter(getResources().getColor(com.google.android.material.R.color.design_default_color_on_primary));
+
+            }
+        });
     }
 }

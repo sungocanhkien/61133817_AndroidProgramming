@@ -1,6 +1,7 @@
 package anhkien.android.km_to_m_app;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -28,5 +29,12 @@ public class MainActivity extends AppCompatActivity {
         });
         button=findViewById(R.id.btn);
         editText1=findViewById(R.id.edtkm);
+        editText2=findViewById(R.id.edtm);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
     }
 }

@@ -39,9 +39,13 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Vui lòng nhập số km!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                int km = Integer.parseInt(s);
-                int m = 1000*km;
-                editText2.setText("Giá trị quy đổi:"+ m);
+                try {
+                    int km = Integer.parseInt(s);
+                    int m = 1000*km;
+                    editText2.setText("Giá trị quy đổi:"+ m + "m");
+                }catch (NumberFormatException e){
+                    Toast.makeText(MainActivity.this, "Hãy nhập số hợp lệ!", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

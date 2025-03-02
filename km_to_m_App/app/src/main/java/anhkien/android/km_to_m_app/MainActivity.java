@@ -33,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                String s = editText1.getText().toString();
+                int km = Integer.parseInt(s);
+                int m = 1000*km;
+                editText2.setText("Giá trị quy đổi:"+ m);
             }
         });
     }

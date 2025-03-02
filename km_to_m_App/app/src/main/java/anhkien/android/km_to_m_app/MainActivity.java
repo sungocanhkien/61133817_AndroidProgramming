@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,7 +34,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s = editText1.getText().toString();
+                String s = editText1.getText().toString().trim();
+                if(s.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Vui lòng nhập số km!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 int km = Integer.parseInt(s);
                 int m = 1000*km;
                 editText2.setText("Giá trị quy đổi:"+ m);

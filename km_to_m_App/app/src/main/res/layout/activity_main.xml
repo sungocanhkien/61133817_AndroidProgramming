@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="80dp"
         android:background="@android:color/holo_green_light">
         <TextView
             android:layout_width="match_parent"
@@ -26,10 +26,13 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
             android:src="@drawable/km_m">
         </ImageView>
     </LinearLayout>
@@ -78,8 +81,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint=".....m">
-
         </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
     </LinearLayout>
 
 </LinearLayout>

@@ -18,3 +18,14 @@ Các bài tập và bài thực hành về Android
   <h4>EX4: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Ex4_AddSubMulDiv_Onclick">Ex4_AddSubMulDiv_Onclick</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex4_AddSubMulDiv_Onclick/Result_Ex4.PNG" width = "200">
 </div>
+
+<h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
+<div>
+  <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/App_BMI">App_BMI</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result_Design.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result.PNG" width = "200">
+</div>
+<div>
+  <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/km_to_m_App">km_to_m_App</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/km_to_m_App/Result.PNG" width = "200">
+</div>

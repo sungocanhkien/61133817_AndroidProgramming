@@ -1,2 +1,2 @@
 # 61133817_AndroidProgramming
-Các bài tập về Android
+Các bài tập và bài thực hành về Android

@@ -31,30 +31,36 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        TimView();
-        buttonTong.setOnClickListener(XuLyTong);
-        buttonHieu.setOnClickListener(XuLyHieu);
-        buttonTich.setOnClickListener(XuLyTich);
-        buttonThuong.setOnClickListener(XuLyThuong);
-        /*buttonThuong.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String strSoA = editTextSoA.getText().toString();
-                String strSoB = editTextSoB.getText().toString();
-
-                float SoA = Float.valueOf(strSoA);
-                float SoB = Float.valueOf(strSoB);
-
-                float Thuong = SoA / SoB;
-                String StrKQ = String.valueOf(Thuong);
-                textViewKQ.setText(StrKQ);
-            }
-        });*/
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TimView();
+        /*buttonTong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        buttonHieu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        buttonTich.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        buttonThuong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });*/
     }
 
     View.OnClickListener XuLyTong = new View.OnClickListener() {

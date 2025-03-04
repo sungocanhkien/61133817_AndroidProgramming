@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextSoA;
     EditText editTextSoB;
     Button buttonTong, buttonHieu, buttonTich, buttonThuong;
-    EditText textViewKQ;
+    EditText editTextKQ;
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);
@@ -24,13 +24,14 @@ public class MainActivity extends AppCompatActivity {
         buttonHieu = (Button) findViewById(R.id.btnHieu);
         buttonTich = (Button) findViewById(R.id.btnTich);
         buttonThuong = (Button) findViewById(R.id.btnThuong);
-        textViewKQ = (EditText) findViewById(R.id.edtKQ);
+        editTextKQ = (EditText) findViewById(R.id.edtKQ);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -40,29 +41,13 @@ public class MainActivity extends AppCompatActivity {
         buttonTong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String strSoA = editTextSoA.getText().toString();
-                String strSoB = editTextSoB.getText().toString();
-
-                float SoA = Float.parseFloat(strSoA);
-                float SoB = Float.parseFloat(strSoB);
-
-                float Tong = SoA + SoB;
-                String StrKQ = String.valueOf(Tong);
-                textViewKQ.setText(StrKQ);
+                XuLyTong();
             }
         });
         buttonHieu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String strSoA = editTextSoA.getText().toString();
-                String strSoB = editTextSoB.getText().toString();
 
-                float SoA = Float.parseFloat(strSoA);
-                float SoB = Float.parseFloat(strSoB);
-
-                float Hieu = SoA - SoB;
-                String StrKQ = String.valueOf(Hieu);
-                textViewKQ.setText(StrKQ);
             }
         });
         buttonTich.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
                 float Tich = SoA * SoB;
                 String StrKQ = String.valueOf(Tich);
-                textViewKQ.setText(StrKQ);
+                editTextKQ.setText(StrKQ);
             }
         });
         buttonThuong.setOnClickListener(new View.OnClickListener() {
@@ -90,9 +75,36 @@ public class MainActivity extends AppCompatActivity {
 
                 float Thuong = SoA / SoB;
                 String StrKQ = String.valueOf(Thuong);
-                textViewKQ.setText(StrKQ);
+                editTextKQ.setText(StrKQ);
             }
         });
     }
+    public void XuLyTong(){
+        String strSoA = editTextSoA.getText().toString();
+        String strSoB = editTextSoB.getText().toString();
 
+        float SoA = Float.parseFloat(strSoA);
+        float SoB = Float.parseFloat(strSoB);
+
+        float Tong = SoA + SoB;
+        String StrKQ = String.valueOf(Tong);
+        editTextKQ.setText(StrKQ);
+    }
+    public void XuLyHieu(){
+        String strSoA = editTextSoA.getText().toString();
+        String strSoB = editTextSoB.getText().toString();
+
+        float SoA = Float.parseFloat(strSoA);
+        float SoB = Float.parseFloat(strSoB);
+
+        float Hieu = SoA - SoB;
+        String StrKQ = String.valueOf(Hieu);
+        editTextKQ.setText(StrKQ);
+    }
+    public void XuLyTich(){
+
+    }
+    public void XuLyThuong(){
+        
+    }
 }

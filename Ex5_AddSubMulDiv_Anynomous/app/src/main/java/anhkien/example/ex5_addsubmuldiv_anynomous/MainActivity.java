@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity {
             String strSoA = editTextSoA.getText().toString();
             String strSoB = editTextSoB.getText().toString();
 
-            float SoA = Float.valueOf(strSoA);
-            float SoB = Float.valueOf(strSoB);
+            float SoA = Float.parseFloat(strSoA);
+            float SoB = Float.parseFloat(strSoB);
 
             float Tich = SoA * SoB;
             String StrKQ = String.valueOf(Tich);
@@ -105,8 +105,8 @@ public class MainActivity extends AppCompatActivity {
             String strSoA = editTextSoA.getText().toString();
             String strSoB = editTextSoB.getText().toString();
 
-            float SoA = Float.valueOf(strSoA);
-            float SoB = Float.valueOf(strSoB);
+            float SoA = Float.parseFloat(strSoA);
+            float SoB = Float.parseFloat(strSoB);
 
             float Thuong = SoA / SoB;
             String StrKQ = String.valueOf(Thuong);

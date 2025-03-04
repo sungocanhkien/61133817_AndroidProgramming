@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         buttonTong.setOnClickListener(XuLyTong);
         buttonHieu.setOnClickListener(XuLyHieu);
         buttonTich.setOnClickListener(XuLyTich);
-        //buttonThuong.setOnClickListener(XuLyThuong);
-        buttonThuong.setOnClickListener(new View.OnClickListener() {
+        buttonThuong.setOnClickListener(XuLyThuong);
+        /*buttonThuong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String strSoA = editTextSoA.getText().toString();
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 String StrKQ = String.valueOf(Thuong);
                 textViewKQ.setText(StrKQ);
             }
-        });
+        });*/
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
             String strSoA = editTextSoA.getText().toString();
             String strSoB = editTextSoB.getText().toString();
 
-            float SoA = Float.valueOf(strSoA);
-            float SoB = Float.valueOf(strSoB);
+            float SoA = Float.parseFloat(strSoA);
+            float SoB = Float.parseFloat(strSoB);
 
             float Tong = SoA + SoB;
             String StrKQ = String.valueOf(Tong);
@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
             String strSoA = editTextSoA.getText().toString();
             String strSoB = editTextSoB.getText().toString();
 
-            float SoA = Float.valueOf(strSoA);
-            float SoB = Float.valueOf(strSoB);
+            float SoA = Float.parseFloat(strSoA);
+            float SoB = Float.parseFloat(strSoB);
 
             float Hieu = SoA - SoB;
             String StrKQ = String.valueOf(Hieu);
@@ -96,6 +96,20 @@ public class MainActivity extends AppCompatActivity {
 
             float Tich = SoA * SoB;
             String StrKQ = String.valueOf(Tich);
+            textViewKQ.setText(StrKQ);
+        }
+    };
+    View.OnClickListener XuLyThuong = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            String strSoA = editTextSoA.getText().toString();
+            String strSoB = editTextSoB.getText().toString();
+
+            float SoA = Float.valueOf(strSoA);
+            float SoB = Float.valueOf(strSoB);
+
+            float Thuong = SoA / SoB;
+            String StrKQ = String.valueOf(Thuong);
             textViewKQ.setText(StrKQ);
         }
     };

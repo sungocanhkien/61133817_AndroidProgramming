@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
     void TimView(){
         editTextSoA = (EditText) findViewById(R.id.edtSoA);
         editTextSoB = (EditText) findViewById(R.id.edtSoB);
+        editTextKQ = (EditText) findViewById(R.id.edtKQ);
         buttonTong = (Button) findViewById(R.id.btnTong);
         buttonHieu = (Button) findViewById(R.id.btnHieu);
         buttonTich = (Button) findViewById(R.id.btnTich);
         buttonThuong = (Button) findViewById(R.id.btnThuong);
-        editTextKQ = (EditText) findViewById(R.id.edtKQ);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

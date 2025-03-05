@@ -41,70 +41,58 @@ public class MainActivity extends AppCompatActivity {
         buttonTong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                XuLyTong();
+                String strSoA = editTextSoA.getText().toString();
+                String strSoB = editTextSoB.getText().toString();
+
+                float SoA = Float.parseFloat(strSoA);
+                float SoB = Float.parseFloat(strSoB);
+
+                float Tong = SoA + SoB;
+                String StrKQ = String.valueOf(Tong);
+                editTextKQ.setText(StrKQ);
             }
         });
         buttonHieu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                XuLyHieu();
+                String strSoA = editTextSoA.getText().toString();
+                String strSoB = editTextSoB.getText().toString();
+
+                float SoA = Float.parseFloat(strSoA);
+                float SoB = Float.parseFloat(strSoB);
+
+                float Hieu = SoA - SoB;
+                String StrKQ = String.valueOf(Hieu);
+                editTextKQ.setText(StrKQ);
             }
         });
         buttonTich.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                XuLyTich();
+                String strSoA = editTextSoA.getText().toString();
+                String strSoB = editTextSoB.getText().toString();
+
+                float SoA = Float.parseFloat(strSoA);
+                float SoB = Float.parseFloat(strSoB);
+
+                float Tich = SoA * SoB;
+                String StrKQ = String.valueOf(Tich);
+                editTextKQ.setText(StrKQ);
             }
         });
         buttonThuong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                XuLyThuong();
+                String strSoA = editTextSoA.getText().toString();
+                String strSoB = editTextSoB.getText().toString();
+
+                float SoA = Float.parseFloat(strSoA);
+                float SoB = Float.parseFloat(strSoB);
+
+                float Thuong = SoA / SoB;
+                String StrKQ = String.valueOf(Thuong);
+                editTextKQ.setText(StrKQ);
             }
         });
-    }
-    void XuLyTong(){
-        String strSoA = editTextSoA.getText().toString();
-        String strSoB = editTextSoB.getText().toString();
-
-        float SoA = Float.parseFloat(strSoA);
-        float SoB = Float.parseFloat(strSoB);
-
-        float Tong = SoA + SoB;
-        String StrKQ = String.valueOf(Tong);
-        editTextKQ.setText(StrKQ);
-    }
-    void XuLyHieu(){
-        String strSoA = editTextSoA.getText().toString();
-        String strSoB = editTextSoB.getText().toString();
-
-        float SoA = Float.parseFloat(strSoA);
-        float SoB = Float.parseFloat(strSoB);
-
-        float Hieu = SoA - SoB;
-        String StrKQ = String.valueOf(Hieu);
-        editTextKQ.setText(StrKQ);
-    }
-    void XuLyTich(){
-        String strSoA = editTextSoA.getText().toString();
-        String strSoB = editTextSoB.getText().toString();
-
-        float SoA = Float.parseFloat(strSoA);
-        float SoB = Float.parseFloat(strSoB);
-
-        float Tich = SoA * SoB;
-        String StrKQ = String.valueOf(Tich);
-        editTextKQ.setText(StrKQ);
-    }
-    void XuLyThuong(){
-        String strSoA = editTextSoA.getText().toString();
-        String strSoB = editTextSoB.getText().toString();
-
-        float SoA = Float.parseFloat(strSoA);
-        float SoB = Float.parseFloat(strSoB);
-
-        float Thuong = SoA / SoB;
-        String StrKQ = String.valueOf(Thuong);
-        editTextKQ.setText(StrKQ);
     }
 }

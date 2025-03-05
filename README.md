@@ -18,6 +18,10 @@ Các bài tập và bài thực hành về Android
   <h4>EX4: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Ex4_AddSubMulDiv_Onclick">Ex4_AddSubMulDiv_Onclick</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex4_AddSubMulDiv_Onclick/Result_Ex4.PNG" width = "200">
 </div>
+<div>
+  <h4>EX5: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Anynomous">Ex5_AddSubMulDiv_Anynomous</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex5_AddSubMulDiv_Anynomous/Result.PNG" width = "200">
+</div>
 
 <h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
 <div>

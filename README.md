@@ -22,12 +22,17 @@ Các bài tập và bài thực hành về Android
   <h4>EX5: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Ex5_AddSubMulDiv_Anynomous">Ex5_AddSubMulDiv_Anynomous</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex5_AddSubMulDiv_Anynomous/Result.PNG" width = "200">
 </div>
+<div>
+  <h4>EX5: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/EX5_next_Inline_Anonymous">EX5_next_Inline_Anonymous</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/EX5_next_Inline_Anonymous/Result.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result.PNG" width = "200">
+</div>
 
 <h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
 <div>
   <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/App_BMI">App_BMI</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result_Design.PNG" width = "200">
-  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/EX5_next_Inline_Anonymous/Result_next.PNG" width = "200">
 </div>
 <div>
   <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/km_to_m_App">km_to_m_App</a>/a></h4>

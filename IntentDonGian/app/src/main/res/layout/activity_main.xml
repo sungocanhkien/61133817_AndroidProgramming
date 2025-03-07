@@ -33,7 +33,7 @@
         <Button
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:id="@+id/edtStart"
+            android:id="@+id/btnStart"
             android:text="Start =>"
             android:textColor="#CD09EF"
             android:backgroundTint="#16ED1F"

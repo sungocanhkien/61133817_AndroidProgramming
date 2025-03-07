@@ -28,7 +28,9 @@ public class Home extends AppCompatActivity {
         Button buttonHome = findViewById(R.id.btnComeback);
 
         Intent intent = getIntent();
-        String edtEmail = intent.getStringExtra("Email");
+        String EmailHome = intent.getStringExtra("Email");
+
+        editTextHome.setText(EmailHome);
         buttonHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

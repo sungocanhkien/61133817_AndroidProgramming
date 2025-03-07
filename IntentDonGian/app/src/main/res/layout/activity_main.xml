@@ -9,15 +9,15 @@
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="100dp"
         android:gravity="center"
         android:background="#E79090"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="150dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Intent DonGian"
-            android:textSize="25dp"
+            android:textSize="40dp"
             android:textStyle="bold"
             android:textColor="#1A39C7"
             >
@@ -25,12 +25,17 @@
 
     </LinearLayout>
     <LinearLayout
+        android:layout_marginTop="70dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Chuyển =>">
+            android:text="Chuyển =>"
+            android:textColor="#CD09EF"
+            android:backgroundTint="#16ED1F"
+            android:textSize="25">
         </Button>
     </LinearLayout>
 

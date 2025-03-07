@@ -8,15 +8,30 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="#E79090"
+        android:layout_marginTop="100dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Intent DonGian"
-            te>
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#1A39C7"
+            >
         </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chuyển =>">
+        </Button>
     </LinearLayout>
 
 </LinearLayout>

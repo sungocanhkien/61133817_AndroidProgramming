@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,8 +39,11 @@ public class Login extends AppCompatActivity {
                     Intent Home = new Intent(Login.this, Home.class);
                     Home.putExtra("Email", strEmail);
                     startActivity(Home);
+                } else if (strEmail.equals("anhkien@gmail.com")&& strPass.equals("123")) {
+                    Toast.makeText(Login.this, "Email hoặc Mật khẩu không chính xác! Hãy kiểm tra lại!", Toast.LENGTH_SHORT).show();
+                    editTextEmail.setText("");
+                    editTextPass.setText("");
                 }
-                
             }
         });
     }

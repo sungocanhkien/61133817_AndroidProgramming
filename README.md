@@ -27,6 +27,12 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/EX5_next_Inline_Anonymous/Result.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/EX5_next_Inline_Anonymous/Result_next.PNG" width = "200">
 </div>
+<div>
+  <h4>EX6: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/IntentDonGian">EX6_IntentDonGian</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/IntentDonGian/Ex6_intentDG1.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/IntentDonGian/Ex6_intentDG2.PNG" width = "200">
+</div>
+
 
 <h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
 <div>

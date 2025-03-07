@@ -1,5 +1,6 @@
 package anhkien.android.ex7_intentlogin;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,8 +35,11 @@ public class Login extends AppCompatActivity {
                 String strEmail = editTextEmail.getText().toString();
                 String strPass = editTextPass.getText().toString();
                 if(strEmail.equals("anhkien@gmail.com")&& strPass.equals("123")){
-                    
+                    Intent Home = new Intent(Login.this, Home.class);
+                    Home.putExtra("Email", strEmail);
+                    startActivity(Home);
                 }
+                
             }
         });
     }

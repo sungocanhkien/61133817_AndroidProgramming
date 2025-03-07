@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="@drawable/anhhoathinh">
+    tools:context=".MainActivity2">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -33,11 +32,10 @@
         <Button
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Start =>"
+            android:text="End =>"
             android:textColor="#CD09EF"
             android:backgroundTint="#16ED1F"
             android:textSize="25dp">
         </Button>
     </LinearLayout>
-
 </LinearLayout>

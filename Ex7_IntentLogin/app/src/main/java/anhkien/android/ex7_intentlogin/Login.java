@@ -1,6 +1,8 @@
 package anhkien.android.ex7_intentlogin;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +11,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Login extends AppCompatActivity {
+    EditText editTextEmail, editTextPass;
+    Button buttonLogin;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +25,9 @@ public class Login extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void TimView(){
+        editTextEmail.findViewById(R.id.edtEmail);
+        editTextPass.findViewById(R.id.edtpass);
     }
 }

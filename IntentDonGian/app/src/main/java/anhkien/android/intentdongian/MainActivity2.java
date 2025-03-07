@@ -12,6 +12,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import javax.xml.transform.Result;
+
 public class MainActivity2 extends AppCompatActivity {
 
     @Override
@@ -28,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
         buttonCome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent Result = new Intent(MainActivity2.this, MainActivity.class);
             }
         });
 

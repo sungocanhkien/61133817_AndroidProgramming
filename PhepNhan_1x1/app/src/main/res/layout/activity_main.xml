@@ -21,4 +21,23 @@
            android:textColor="#0026B0">
        </TextView>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1x1"
+            app:layout_constraintTop_toBottomOf="@+id/txtTieuDe"
+            android:text="1 x 1 ="
+            android:textSize="32dp"
+            android:layout_marginTop="30dp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+        </EditText>
+    </LinearLayout>
 </LinearLayout>

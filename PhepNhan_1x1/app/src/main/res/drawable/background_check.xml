@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <bitmap android:src="@drawable/bbcheck" android:gravity="fill">
+        <bitmap android:src="@drawable/bobocheck" android:gravity="fill">
         </bitmap>
     </item>
     <item>
@@ -10,7 +10,7 @@
         </shape>
     </item>
     <item>
-        <bitmap android:src="@drawable/bbcheck" android:gravity="center" android:tileMode="disabled">
+        <bitmap android:src="@drawable/bobocheck" android:gravity="center" android:tileMode="disabled">
 
         </bitmap>
     </item>

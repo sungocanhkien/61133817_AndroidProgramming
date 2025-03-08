@@ -1,82 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--Phép nhân -->
-    <TextView
-        android:id="@+id/txtTieuDe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PHÉP NHÂN 1X1"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="#0026B0"
-        tools:ignore="MissingConstraints">
-    </TextView>
-    <TextView
-        android:id="@+id/txt1x1"
-        app:layout_constraintTop_toBottomOf="@+id/txtTieuDe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1 x 1 ="
-        android:textSize="32dp"
-        android:layout_marginTop="30dp"
-        tools:ignore="MissingConstraints">
-    </TextView>
-
-    <TextView
-        android:id="@+id/txtKQ"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:textSize="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/txt1x1"
-        app:layout_constraintStart_toEndOf="@+id/txt1x1"
-        app:layout_constraintTop_toBottomOf="@+id/txtTieuDe"
-        app:layout_constraintTop_toTopOf="@+id/txt1x1"
-        tools:ignore="MissingConstraints"></TextView>
-
-    <Button
-        android:id="@+id/btnCheck"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CHECK"
-        android:textSize="25dp"
-        app:layout_constraintTop_toBottomOf="@+id/txtKQ"
-        android:layout_marginTop="30dp"
-        tools:ignore="MissingConstraints">
-    </Button>
-    <GridLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        android:id="@+id/gridNumbers"
-        android:columnCount="3"
-        android:rowCount="4"
-        android:padding="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/btnCheck"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp">
-        <Button android:id="@+id/btn1" style="@style/TextAppearance.AppCompat" android:text="1"></Button>
-        <Button android:id="@+id/btn2" style="@style/TextAppearance.AppCompat" android:text="2"></Button>
-        <Button android:id="@+id/btn3" style="@style/TextAppearance.AppCompat" android:text="3"></Button>
-        <Button android:id="@+id/btn4" style="@style/TextAppearance.AppCompat" android:text="4"></Button>
-        <Button android:id="@+id/btn5" style="@style/TextAppearance.AppCompat" android:text="5"></Button>
-        <Button android:id="@+id/btn6" style="@style/TextAppearance.AppCompat" android:text="6"></Button>
-        <Button android:id="@+id/btn7" style="@style/TextAppearance.AppCompat" android:text="7"></Button>
-        <Button android:id="@+id/btn8" style="@style/TextAppearance.AppCompat" android:text="8"></Button>
-        <Button android:id="@+id/btn9" style="@style/TextAppearance.AppCompat" android:text="9"></Button>
-        <Button android:id="@+id/btn10" style="@style/TextAppearance.AppCompat" android:text="10"></Button>
-        <Button android:id="@+id/btn11" style="@style/TextAppearance.AppCompat" android:text="11"></Button>
-        <Button android:id="@+id/btn12" style="@style/TextAppearance.AppCompat" android:text="12"></Button>
-    </GridLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtTieuDe"
+           android:text="PHÉP NHÂN 1X1"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:textColor="#0026B0">
+       </TextView>
+    </LinearLayout>
+</LinearLayout>

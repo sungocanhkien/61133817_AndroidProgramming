@@ -7,13 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Phép nhân -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="PHÉP NHÂN 1X1"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 x 1 ="
+        android:textSize="32dp"
+        >
+    </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

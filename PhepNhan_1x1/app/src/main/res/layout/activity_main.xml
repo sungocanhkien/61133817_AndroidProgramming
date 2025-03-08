@@ -68,13 +68,13 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
         android:background="@drawable/bongbong"
         android:id="@+id/gridNumbers"
+        android:layout_gravity="center"
         android:columnCount="3"
         android:rowCount="4"
-        android:padding="30dp"
-        android:layout_marginTop="2dp">
+        android:padding="35dp"
+        android:layout_marginTop="50dp">
         <Button android:id="@+id/btn1" style="@style/ButtonStyle" android:text="1" ></Button>
         <Button android:id="@+id/btn2" style="@style/ButtonStyle" android:text="2" ></Button>
         <Button android:id="@+id/btn3" style="@style/ButtonStyle" android:text="3" ></Button>

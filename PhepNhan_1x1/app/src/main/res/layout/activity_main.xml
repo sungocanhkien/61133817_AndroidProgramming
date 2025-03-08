@@ -41,6 +41,7 @@
             >
         </TextView>
         <EditText
+            android:id="@+id/editTextResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -51,6 +52,7 @@
         </EditText>
     </LinearLayout>
     <Button
+        android:id="@+id/checkButton"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:textSize="30dp"

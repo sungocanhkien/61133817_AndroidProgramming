@@ -33,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
         //Gán sự kiện click cho các nút số
         for(int i = 0; i < buttonIDs.length; i++){
             Button numberButton = findViewById(buttonIDs[i]);
-            int number = i + 1; //Giá
+            int number = i + 1; //Giá trị số từ 1 đến 12
+            numberButton.setOnClickListener(v -> {
+                selectedNumber = number; //Lưu số được chọn
+            });
         }
     }
 }

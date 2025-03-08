@@ -38,5 +38,12 @@ public class MainActivity extends AppCompatActivity {
                 selectedNumber = number; //Lưu số được chọn
             });
         }
+        //Xử lý khi nhấn nút Check
+        checkButton.setOnClickListener(v -> {
+            if(selectedNumber != 0){
+                int result = 1 * selectedNumber; //Tính phép nhân 1
+                resultEditText.setText(String.valueOf(result)); //Hiển thị kết quả.
+            }
+        });
     }
 }

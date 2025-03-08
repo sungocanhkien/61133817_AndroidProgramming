@@ -52,6 +52,7 @@
         android:text="CHECK">
     </Button>
     <GridLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"

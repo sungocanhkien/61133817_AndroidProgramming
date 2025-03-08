@@ -1,6 +1,8 @@
 package anhkien.android.phepnhan_1x1;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
+    private EditText resultEditText;
+    private int selectedNumber = 0; //Số được chọn từ GridLayout
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +23,17 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        resultEditText = findViewById(R.id.editTextResult);
+        Button checkButton = findViewById(R.id.checkButton);
+        //Khai báo mảng ID của các nút số từ 1 đến 12
+        int[] buttonIDs = {
+                R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4, R.id.btn5, R.id.btn6,
+                R.id.btn7, R.id.btn8, R.id.btn9, R.id.btn10, R.id.btn11, R.id.btn12
+        };
+        //Gán sự kiện click cho các nút số
+        for(int i = 0; i < buttonIDs.length; i++){
+            Button numberButton = findViewById(buttonIDs[i]);
+            int number = i + 1; //Giá
+        }
     }
 }

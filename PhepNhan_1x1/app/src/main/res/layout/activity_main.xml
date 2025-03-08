@@ -35,9 +35,13 @@
             >
         </TextView>
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="32dp">
         </EditText>
+        
     </LinearLayout>
 </LinearLayout>

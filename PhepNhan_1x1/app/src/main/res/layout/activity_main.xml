@@ -28,6 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
@@ -35,16 +36,19 @@
             android:id="@+id/txt1x1"
             app:layout_constraintTop_toBottomOf="@+id/txtTieuDe"
             android:text="1 x 1 ="
-            android:textSize="32dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:textSize="40dp"
             android:layout_marginTop="30dp"
             >
         </TextView>
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
             android:layout_marginTop="30dp"
             android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="100dp"
             android:textSize="32dp">
         </EditText>
     </LinearLayout>
@@ -66,7 +70,7 @@
         android:columnCount="3"
         android:rowCount="4"
         android:padding="30dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="2dp">
         <Button android:id="@+id/btn1" style="@style/ButtonStyle" android:text="1" ></Button>
         <Button android:id="@+id/btn2" style="@style/ButtonStyle" android:text="2" ></Button>
         <Button android:id="@+id/btn3" style="@style/ButtonStyle" android:text="3" ></Button>

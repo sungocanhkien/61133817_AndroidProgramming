@@ -42,6 +42,35 @@
             android:gravity="center"
             android:textSize="32dp">
         </EditText>
-        
     </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECK">
+    </Button>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/gridNumbers"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp">
+        <Button android:id="@+id/btn1" style="@style/TextAppearance.AppCompat" android:text="1"></Button>
+        <Button android:id="@+id/btn2" style="@style/TextAppearance.AppCompat" android:text="2"></Button>
+        <Button android:id="@+id/btn3" style="@style/TextAppearance.AppCompat" android:text="3"></Button>
+        <Button android:id="@+id/btn4" style="@style/TextAppearance.AppCompat" android:text="4"></Button>
+        <Button android:id="@+id/btn5" style="@style/TextAppearance.AppCompat" android:text="5"></Button>
+        <Button android:id="@+id/btn6" style="@style/TextAppearance.AppCompat" android:text="6"></Button>
+        <Button android:id="@+id/btn7" style="@style/TextAppearance.AppCompat" android:text="7"></Button>
+        <Button android:id="@+id/btn8" style="@style/TextAppearance.AppCompat" android:text="8"></Button>
+        <Button android:id="@+id/btn9" style="@style/TextAppearance.AppCompat" android:text="9"></Button>
+        <Button android:id="@+id/btn10" style="@style/TextAppearance.AppCompat" android:text="10"></Button>
+        <Button android:id="@+id/btn11" style="@style/TextAppearance.AppCompat" android:text="11"></Button>
+        <Button android:id="@+id/btn12" style="@style/TextAppearance.AppCompat" android:text="12"></Button>
+    </GridLayout>
 </LinearLayout>

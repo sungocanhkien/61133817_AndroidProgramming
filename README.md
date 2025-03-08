@@ -55,5 +55,5 @@ Các bài tập và bài thực hành về Android
   <h4>PHÉP NHÂN 1x1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/PhepNhan_1x1">Phép nhân 1x1</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_PhepNhan1.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_phepNhan2.PNG" width = "200">
-  
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_phepNhan3.PNG" width = "200">
 </div>

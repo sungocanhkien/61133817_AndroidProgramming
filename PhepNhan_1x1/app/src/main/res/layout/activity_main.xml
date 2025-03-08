@@ -18,7 +18,7 @@
            android:layout_height="wrap_content"
            android:layout_gravity="center"
            android:gravity="center"
-           android:text="PHÉP NHÂN 1X1"
+           android:text="PHÉP NHÂN 1x1"
            android:textSize="40dp"
            android:textStyle="bold"
            android:textColor="#0026B0">
@@ -53,16 +53,17 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:textSize="30dp"
+        android:backgroundTint="#00A7B0"
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CHECK">
     </Button>
     <GridLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
+        android:background="@drawable/bongbong"
         android:id="@+id/gridNumbers"
         android:columnCount="3"
         android:rowCount="4"

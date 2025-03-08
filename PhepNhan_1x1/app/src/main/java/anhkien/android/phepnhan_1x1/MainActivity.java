@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //Bỏ sáng nút trước đó nếu có
                 if (selectedButton != null){
-                    selectedButton.setBackgroundColor(Color.parseColor("#00A7B0")); //Màu bình tường.
+                    selectedButton.setBackgroundColor(Color.parseColor("#86B8E0")); //Màu bình tường.
                 }
                 //Làm sáng nút hiện tại
                 numberButton.setBackgroundColor(Color.YELLOW); //Màu sáng khi chọn

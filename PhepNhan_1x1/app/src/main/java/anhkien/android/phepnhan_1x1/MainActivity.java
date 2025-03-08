@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     private EditText resultEditText;
+    private Button selectedButton = null; //Lưu nút được chọn
     private int selectedNumber = 0; //Số được chọn từ GridLayout
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
             int number = i + 1; //Giá trị số từ 1 đến 12
             numberButton.setOnClickListener(v -> {
                 selectedNumber = number; //Lưu số được chọn
+
+                //Bỏ sáng nút trước đó nếu có
+                if (selectedBu)
             });
         }
         //Xử lý khi nhấn nút Check

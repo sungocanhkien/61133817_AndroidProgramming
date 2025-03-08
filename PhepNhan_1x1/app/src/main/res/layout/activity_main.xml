@@ -9,17 +9,23 @@
 
     <!--Phép nhân -->
     <TextView
+        android:id="@+id/txtTieuDe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PHÉP NHÂN 1X1"
-        >
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#0026B0"
+        tools:ignore="MissingConstraints">
     </TextView>
     <TextView
+        app:layout_constraintTop_toBottomOf="@+id/txtTieuDe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1 x 1 ="
         android:textSize="32dp"
-        >
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints">
     </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

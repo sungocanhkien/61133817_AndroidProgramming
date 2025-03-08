@@ -1,5 +1,6 @@
 package anhkien.android.phepnhan_1x1;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -39,7 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 selectedNumber = number; //Lưu số được chọn
 
                 //Bỏ sáng nút trước đó nếu có
-                if (selectedBu)
+                if (selectedButton != null){
+                    selectedButton.setBackgroundColor(Color.parseColor("#00A7B0")); //Màu bình tường.
+                }
+                //Làm sáng nút hiện tại
+                numberButton.setBackgroundColor(Color.YELLOW); //Màu sáng khi chọn
+                selectedButton = numberButton; //Lưu nút đang được chọn
             });
         }
         //Xử lý khi nhấn nút Check

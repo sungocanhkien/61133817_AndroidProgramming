@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HinhVuong extends AppCompatActivity {
-    EditText editTextHinhHuong;
+    EditText editTextHinhVuong;
     EditText editTextKQ_CV_hinhVuong, editTextKQ_DT_hinhVuong;
     Button btnHinhVuong;
     @Override
@@ -26,7 +26,7 @@ public class HinhVuong extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        editTextHinhHuong = findViewById(R.id.edtHinhVuong);
+        editTextHinhVuong = findViewById(R.id.edtHinhVuong);
         editTextKQ_CV_hinhVuong = findViewById(R.id.KQ_chuvi_hinhVuong);
         editTextKQ_DT_hinhVuong = findViewById(R.id.KQ_DT_hinhVuong);
         btnHinhVuong = findViewById(R.id.btnHinhVuong);
@@ -34,12 +34,12 @@ public class HinhVuong extends AppCompatActivity {
         btnHinhVuong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                TinhCV_DT_hinhVuong();
             }
         });
     }
     void TinhCV_DT_hinhVuong(){
-        String canh = editTextHinhHuong.getText().toString();
+        String canh = editTextHinhVuong.getText().toString();
         if (canh.isEmpty()){
             Toast.makeText(this, "Hãy nhập cạnh hình vuông!", Toast.LENGTH_SHORT).show();
             return;

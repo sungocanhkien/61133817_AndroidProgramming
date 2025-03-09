@@ -16,16 +16,21 @@
             android:layout_height="wrap_content"
             android:text="CHU VI - DIỆN TÍCH"
             android:gravity="center"
-            android:textSize="30dp"
+            android:textSize="35dp"
             android:textColor="@color/design_default_color_error"
             android:textStyle="bold">
         </TextView>
     </LinearLayout>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/selectableItemBackgroundBorderless"
+        android:layout_gravity="center"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:id="@+id/btnHinhTron"
+        android:text="Hình tròn"
+        android:textSize="25dp"
+        android:textStyle="bold"
         >
     </Button>
 </LinearLayout>

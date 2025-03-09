@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".HinhVuong">
+        tools:context=".HinhChuNhat">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/design_default_color_error"
-                android:text="Chu vi - Diện tích hình vuông"
+                android:text="Chu vi - Diện tích hình chữ nhật"
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:textStyle="bold"
@@ -41,11 +41,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/hinhvuong"
+            android:background="@drawable/hinhchunhat"
             android:gravity="center">
-
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -58,16 +56,40 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Cạnh: "
+                android:text="Chiều dài: "
                 android:textSize="20dp"
                 android:textStyle="bold">
 
             </TextView>
             <EditText
-                android:id="@+id/edtHinhVuong"
+                android:id="@+id/edtHinhChuNhat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Hãy nhập cạnh của hình vuông!">
+                android:hint="Hãy nhập chiều dài hình chữ nhật!">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Chiều dài: "
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <EditText
+                android:id="@+id/edtHinhChuNhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hãy nhập chiều dài hình chữ nhật!">
             </EditText>
         </LinearLayout>
         <LinearLayout

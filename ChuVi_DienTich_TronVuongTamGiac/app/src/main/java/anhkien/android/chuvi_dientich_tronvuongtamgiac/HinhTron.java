@@ -1,6 +1,7 @@
 package anhkien.android.chuvi_dientich_tronvuongtamgiac;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -27,5 +28,18 @@ public class HinhTron extends AppCompatActivity {
         editTextHinhTron = findViewById(R.id.edtHinhTron);
         editTextKQhinhTron = findViewById(R.id.KQhinhTron);
         buttonHinhTron = findViewById(R.id.btnHinhTron);
+        buttonHinhTron.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+    }
+    void HinhTron(){
+        String input = editTextHinhTron.getText().toString();
+        if(!input.isEmpty()){
+            double  = Double.parseDouble(input);
+            double ChuVi = 2 * Math.PI
+        }
     }
 }

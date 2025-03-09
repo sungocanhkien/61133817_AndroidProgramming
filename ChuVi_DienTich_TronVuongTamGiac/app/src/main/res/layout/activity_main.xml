@@ -20,7 +20,7 @@
             android:layout_marginRight="50dp"
             android:layout_gravity="center"
             android:textSize="35dp"
-            android:textColor="@color/design_default_color_error"
+            android:textColor="#00BCD4"
             android:textStyle="bold">
         </TextView>
     </LinearLayout>

@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HinhTron extends AppCompatActivity {
-    private EditText editTextHinhTron, editTextKQhinhTron;
+    private EditText editTextHinhTron, editTextKQhinhTron, editTextKQ_DThinhTron;
     private Button buttonHinhTron;
 
     @Override
@@ -27,6 +27,7 @@ public class HinhTron extends AppCompatActivity {
         });
         editTextHinhTron = findViewById(R.id.edtHinhTron);
         editTextKQhinhTron = findViewById(R.id.KQhinhTron);
+        editTextKQ_DThinhTron = findViewById(R.id.KQDThinhTron);
         buttonHinhTron = findViewById(R.id.btnHinhTron);
         buttonHinhTron.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,10 +42,13 @@ public class HinhTron extends AppCompatActivity {
             double banKinh = Double.parseDouble(input);
             double ChuVi = 2 * Math.PI * banKinh;
             double DienTich = Math.PI * banKinh * banKinh;
-            String ketQua = "Chu vi: "  + String.format("%.2f",ChuVi) + "Diện tích: " + String.format("%.2f", DienTich);
-            editTextKQhinhTron.setText(ketQua);
+            String chuvi = "Chu vi: "  + String.format("%.2f",ChuVi);
+            editTextKQhinhTron.setText(chuvi);
+            String dienTich = "Diện tích: " + String.format("%.2f",DienTich);
+            editTextKQ_DThinhTron.setText(dienTich);
         } else {
             editTextKQhinhTron.setText("Vui lòng nhập lại bán kính!");
+            editTextKQ_DThinhTron.setText("Xin cảm ơn!");
         }
     }
 }

@@ -7,13 +7,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CHU VI - DIỆN TÍCH"
-        android:textSize="30dp"
-        android:textColor="@color/design_default_color_error"
-        android:textStyle="bold">
-    </TextView>
-
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHU VI - DIỆN TÍCH"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/design_default_color_error"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnHinhTron"
+        >
+    </Button>
 </LinearLayout>

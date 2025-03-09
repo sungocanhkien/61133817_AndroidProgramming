@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp">
         <TextView
@@ -64,7 +64,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center">
 
         <Button
@@ -84,7 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp">
         <TextView
@@ -99,6 +99,21 @@
         </TextView>
         <EditText
             android:id="@+id/KQhinhTron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nơi hiện thị kết quả!"
+            android:enabled="false">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="20dp">
+        <EditText
+            android:id="@+id/KQDThinhTron"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nơi hiện thị kết quả!"

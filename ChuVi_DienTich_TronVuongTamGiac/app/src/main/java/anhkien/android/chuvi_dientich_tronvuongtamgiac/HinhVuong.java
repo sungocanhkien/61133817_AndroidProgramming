@@ -52,6 +52,10 @@ public class HinhVuong extends AppCompatActivity {
             }
             double chuVi = 4 * canhHV;
             double dienTich = canhHV * canhHV;
+            editTextKQ_CV_hinhVuong.setText(String.format("Chu vi: %.2f", chuVi));
+            editTextKQ_DT_hinhVuong.setText(String.format("Diện tích: %.2f", dienTich));
+        } catch (NumberFormatException e){
+            Toast.makeText(tis, "Hãy nhập số hợp lệ!", Toast.LENGTH_SHORT).show();
         }
     }
 }

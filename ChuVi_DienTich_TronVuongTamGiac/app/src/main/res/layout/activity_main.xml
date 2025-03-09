@@ -29,7 +29,7 @@
         android:layout_gravity="center"
         android:layout_width="160dp"
         android:layout_height="100dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/btnHinhTron"
         android:text="Hình tròn"
         android:textSize="25dp"
@@ -43,7 +43,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:id="@+id/btnHinhTamGiac"
-        android:text="Hình tròn"
+        android:text="Hình tam giác"
         android:textSize="25dp"
         android:textStyle="bold"
         >
@@ -55,7 +55,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:id="@+id/btnHinhVuong"
-        android:text="Hình tròn"
+        android:text="Hình vuông"
         android:textSize="25dp"
         android:textStyle="bold"
         >
@@ -67,7 +67,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:id="@+id/btnHinhChuNhat"
-        android:text="Hình tròn"
+        android:text="Hình chữ nhật"
         android:textSize="25dp"
         android:textStyle="bold"
         >

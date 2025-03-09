@@ -31,15 +31,20 @@ public class HinhTron extends AppCompatActivity {
         buttonHinhTron.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                HinhTron();
             }
         });
     }
     void HinhTron(){
         String input = editTextHinhTron.getText().toString();
         if(!input.isEmpty()){
-            double  = Double.parseDouble(input);
-            double ChuVi = 2 * Math.PI
+            double banKinh = Double.parseDouble(input);
+            double ChuVi = 2 * Math.PI * banKinh;
+            double DienTich = Math.PI * banKinh * banKinh;
+            String ketQua = "Chu vi: "  + String.format("%.2f",ChuVi) + "Diện tích: " + String.format("%.2f", DienTich);
+            editTextKQhinhTron.setText(ketQua);
+        } else {
+            editTextKQhinhTron.setText("Vui lòng nhập lại bán kính!");
         }
     }
 }

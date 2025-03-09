@@ -1,6 +1,7 @@
 package anhkien.android.chuvi_dientich_tronvuongtamgiac;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Button btnHinhTron = findViewById(R.id.btnHinhTron);
+        Button btnHinhVuong = findViewById(R.id.btnHinhVuong);
+        Button btnHinhTamGiac = findViewById(R.id.btnHinhTamGiac);
+        Button btnHinhChuNhat = findViewById(R.id.btnHinhChuNhat);
+
+        
     }
 }

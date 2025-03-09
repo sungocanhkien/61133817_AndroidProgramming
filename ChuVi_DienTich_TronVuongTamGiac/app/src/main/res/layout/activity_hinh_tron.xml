@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="Bán kính: "
+            android:text="Kết quả: "
             android:textSize="20dp"
             android:textStyle="bold">
 
@@ -83,7 +83,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Hãy nhập bán kính hình tròn!">
+            android:hint="Nơi hiện thị kết quả!"
+            android:enabled="false">
         </EditText>
     </LinearLayout>
 </LinearLayout>

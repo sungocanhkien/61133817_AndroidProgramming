@@ -41,7 +41,17 @@ public class HinhVuong extends AppCompatActivity {
     void TinhCV_DT_hinhVuong(){
         String canh = editTextHinhHuong.getText().toString();
         if (canh.isEmpty()){
-            Toast.makeText()
+            Toast.makeText(this, "Hãy nhập cạnh hình vuông!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        try {
+            double canhHV = Double.parseDouble(canh);
+            if (canhHV<=0){
+                Toast.makeText(this, "Cạnh phải là số dương!", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            double chuVi = 4 * canhHV;
+            double dienTich = canhHV * canhHV;
         }
     }
 }

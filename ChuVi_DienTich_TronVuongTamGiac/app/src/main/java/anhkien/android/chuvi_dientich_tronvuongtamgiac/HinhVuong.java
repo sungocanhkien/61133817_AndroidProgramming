@@ -1,6 +1,10 @@
 package anhkien.android.chuvi_dientich_tronvuongtamgiac;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +13,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HinhVuong extends AppCompatActivity {
-
+    EditText editTextHinhHuong;
+    EditText editTextKQ_CV_hinhVuong, editTextKQ_DT_hinhVuong;
+    Button btnHinhVuong;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +26,22 @@ public class HinhVuong extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        editTextHinhHuong = findViewById(R.id.edtHinhVuong);
+        editTextKQ_CV_hinhVuong = findViewById(R.id.KQ_chuvi_hinhVuong);
+        editTextKQ_DT_hinhVuong = findViewById(R.id.KQ_DT_hinhVuong);
+        btnHinhVuong = findViewById(R.id.btnHinhVuong);
+
+        btnHinhVuong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+    }
+    void TinhCV_DT_hinhVuong(){
+        String canh = editTextHinhHuong.getText().toString();
+        if (canh.isEmpty()){
+            Toast.makeText()
+        }
     }
 }

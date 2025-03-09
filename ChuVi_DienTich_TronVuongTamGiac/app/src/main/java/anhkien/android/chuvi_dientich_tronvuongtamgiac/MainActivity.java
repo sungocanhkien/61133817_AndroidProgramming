@@ -1,6 +1,8 @@
 package anhkien.android.chuvi_dientich_tronvuongtamgiac;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -26,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
         Button btnHinhTamGiac = findViewById(R.id.btnHinhTamGiac);
         Button btnHinhChuNhat = findViewById(R.id.btnHinhChuNhat);
 
-        
+        btnHinhTron.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HinhTron.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -6,11 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+    android:background="@drawable/hinhnen"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
+        android:background="#F4E66D"
         android:layout_marginTop="50dp">
         <TextView
             android:layout_width="wrap_content"
@@ -33,6 +34,7 @@
         android:layout_marginTop="60dp"
         android:id="@+id/btnHinhTron"
         android:text="Hình tròn"
+        android:background="@color/cardview_shadow_start_color"
         android:textSize="25dp"
         android:textStyle="bold"
         >
@@ -44,6 +46,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:id="@+id/btnHinhTamGiac"
+        android:background="@color/cardview_shadow_start_color"
         android:text="Hình tam giác"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -55,6 +58,7 @@
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
+        android:background="@color/cardview_shadow_start_color"
         android:id="@+id/btnHinhVuong"
         android:text="Hình vuông"
         android:textSize="25dp"
@@ -67,6 +71,7 @@
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
+        android:background="@color/cardview_shadow_start_color"
         android:id="@+id/btnHinhChuNhat"
         android:text="Hình chữ nhật"
         android:textSize="25dp"

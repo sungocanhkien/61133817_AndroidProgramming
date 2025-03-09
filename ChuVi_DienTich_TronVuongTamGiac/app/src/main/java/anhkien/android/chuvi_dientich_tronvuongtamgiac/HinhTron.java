@@ -12,8 +12,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HinhTron extends AppCompatActivity {
-    EditText editTextHinhTron, editTextKQhinhTron;
-    Button buttonHinhTron;
+    private EditText editTextHinhTron, editTextKQhinhTron;
+    private Button buttonHinhTron;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class HinhTron extends AppCompatActivity {
             }
         });
     }
-    void HinhTron(){
+    private void HinhTron(){
         String input = editTextHinhTron.getText().toString();
         if(!input.isEmpty()){
             double banKinh = Double.parseDouble(input);

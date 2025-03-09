@@ -19,7 +19,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:background="#CDDC39"
             >
             <TextView
@@ -39,7 +39,7 @@
             android:layout_width="256dp"
             android:layout_height="188dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/hinhchunhat"
             android:gravity="center">
@@ -49,8 +49,8 @@
             android:layout_height="50dp"
             android:orientation="horizontal"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp">
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
 
             </TextView>
             <EditText
-                android:id="@+id/edtHinhChuNhat"
+                android:id="@+id/edtChieuDai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Hãy nhập chiều dài hình chữ nhật!">
@@ -73,23 +73,23 @@
             android:layout_height="50dp"
             android:orientation="horizontal"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp">
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Chiều dài: "
+                android:text="Chiều rộng: "
                 android:textSize="20dp"
                 android:textStyle="bold">
 
             </TextView>
             <EditText
-                android:id="@+id/edtHinhChuNhat"
+                android:id="@+id/edtChieuRong"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Hãy nhập chiều dài hình chữ nhật!">
+                android:hint="Nhập chiều rộng hình chữ nhật!">
             </EditText>
         </LinearLayout>
         <LinearLayout
@@ -99,7 +99,7 @@
             android:layout_gravity="center">
 
             <Button
-                android:id="@+id/btnHinhVuong"
+                android:id="@+id/btnHinhChuNhat"
                 android:layout_width="104dp"
                 android:backgroundTint="#03A9F4"
                 android:layout_height="match_parent"
@@ -129,7 +129,7 @@
 
             </TextView>
             <EditText
-                android:id="@+id/KQ_chuvi_hinhVuong"
+                android:id="@+id/KQ_chuvi_hinhCNhat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nơi hiện thị kết quả!"
@@ -144,7 +144,7 @@
             android:layout_marginLeft="120dp"
             android:layout_marginRight="20dp">
             <EditText
-                android:id="@+id/KQ_DT_hinhVuong"
+                android:id="@+id/KQ_DT_hinhCNhat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nơi hiện thị kết quả!"

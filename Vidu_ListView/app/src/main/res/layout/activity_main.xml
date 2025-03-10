@@ -6,12 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU MÓN ĂN GIA ĐÌNH"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#85ED0C"
+        android:background="#BA577A"
+        tools:ignore="MissingConstraints">
+    </TextView>
     <ListView
         android:id="@+id/DSmonAn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
+        android:backgroundTint="#0D9ADC"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"/>

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,8 +34,27 @@ public class HinhChuNhat extends AppCompatActivity {
         btnTinh_HCNhat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Tinh_ChuVi_DienTich_HCNhat();
             }
         });
+    }
+    void Tinh_ChuVi_DienTich_HCNhat(){
+        String strChieuDai = editTextChieuDai.getText().toString().trim();
+        String strChieuRong = editTextChieuRong.getText().toString().trim();
+        if(strChieuDai.isEmpty() || strChieuRong.isEmpty()){
+            Toast.makeText(this, "Vui lòng nhập 2 cạnh", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        try {
+            double chieuDai = Double.parseDouble(strChieuDai);
+            double chieuRong = Double.parseDouble(strChieuRong);
+            if(chieuDai<=0 || chieuRong<= 0){
+                Toast.makeText(this, "Cạnh là số dương!", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            double chuVi = 2 * (chieuDai + chieuRong);
+            double dienTich = chieuDai* chieuRong;
+            
+        }
     }
 }

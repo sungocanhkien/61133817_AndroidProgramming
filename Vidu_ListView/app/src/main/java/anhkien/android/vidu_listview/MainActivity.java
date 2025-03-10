@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         DanhSachMonAn = findViewById(R.id.DSmonAn);
+
         DS_MonAn = new ArrayList<>();
         DS_MonAn.add("Canh Chua");
         DS_MonAn.add("Cá kho");
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         DanhSachMonAn.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String ChonGiaTri = DanhSachMonAn.get(position);
+                String ChonGiaTri = DS_MonAn.get(position);
                 Toast.makeText(MainActivity.this, ChonGiaTri, Toast.LENGTH_LONG).show();
             }
         });

@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         });
         Button btnHinhTron = findViewById(R.id.btnHinhTron);
         Button btnHinhVuong = findViewById(R.id.btnHinhVuong);
-        Button btnHinhTamGiac = findViewById(R.id.btnHinhTamGiac);
         Button btnHinhChuNhat = findViewById(R.id.btnHinhChuNhat);
 
         btnHinhTron.setOnClickListener(new View.OnClickListener() {
@@ -35,13 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btnHinhTamGiac.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, HinhTamGiac.class);
-                startActivity(intent);
-            }
-        });
+
         btnHinhVuong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

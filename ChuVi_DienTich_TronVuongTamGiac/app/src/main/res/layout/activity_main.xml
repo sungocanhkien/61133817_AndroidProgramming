@@ -45,19 +45,6 @@
         android:layout_width="160dp"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/btnHinhTamGiac"
-        android:background="@color/cardview_shadow_start_color"
-        android:text="Hình tam giác"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        >
-    </Button>
-    <Button
-        android:elevation="10dp"
-        android:layout_gravity="center"
-        android:layout_width="160dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="10dp"
         android:background="@color/cardview_shadow_start_color"
         android:id="@+id/btnHinhVuong"
         android:text="Hình vuông"

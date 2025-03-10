@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayAdapter<String> ds_monAn;
         ds_monAn = new ArrayAdapter<String>(
-                this,
+                this, android.R.layout.simple_dropdown_item_1line, DS_MonAn
         );
-
+        
     }
 }

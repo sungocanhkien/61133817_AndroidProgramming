@@ -57,3 +57,10 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_phepNhan2.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_phepNhan3.PNG" width = "200">
 </div>
+<div>
+  <h4>CHU VI - DIỆN TÍCH: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/ChuVi_DienTich_TronVuongTamGiac">CHU VI - DIỆN TÍCH</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ChuVi_DienTich_TronVuongTamGiac/Result_menu.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ChuVi_DienTich_TronVuongTamGiac/Result_hinhChuNhat.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ChuVi_DienTich_TronVuongTamGiac/Result_hinhTron.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ChuVi_DienTich_TronVuongTamGiac/Result_hinhVuong.PNG" width = "200">
+</div>

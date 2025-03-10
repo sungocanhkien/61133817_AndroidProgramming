@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         DS_MonAn.add("Cá chiên");
 
         ArrayAdapter<String> ds_monAn;
-        ds_monAn = new ArrayAdapter<>()
+        ds_monAn = new ArrayAdapter<String>(
+                this,
+        );
 
     }
 }

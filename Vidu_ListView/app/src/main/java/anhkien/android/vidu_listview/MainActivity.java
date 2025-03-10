@@ -1,6 +1,8 @@
 package anhkien.android.vidu_listview;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,8 +10,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
 
+public class MainActivity extends AppCompatActivity {
+    ListView DanhSachMonAn;
+    ArrayList<String> DS_MonAn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +25,17 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        DanhSachMonAn = findViewById(R.id.DSmonAn);
+        DS_MonAn = new ArrayList<>();
+        DS_MonAn.add("Canh Chua");
+        DS_MonAn.add("Cá kho");
+        DS_MonAn.add("Thịt kho");
+        DS_MonAn.add("Rau luộc");
+        DS_MonAn.add("Cá hấp");
+        DS_MonAn.add("Cá chiên");
+
+        ArrayAdapter<String> ds_monAn;
+        ds_monAn = new ArrayAdapter<>()
+
     }
 }

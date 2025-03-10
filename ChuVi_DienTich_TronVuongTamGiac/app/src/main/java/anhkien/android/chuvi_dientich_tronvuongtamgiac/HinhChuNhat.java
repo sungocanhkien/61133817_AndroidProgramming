@@ -1,6 +1,8 @@
 package anhkien.android.chuvi_dientich_tronvuongtamgiac;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class HinhChuNhat extends AppCompatActivity {
-
+    EditText editTextChuVi_HCNhat,editTextDienTich_HCNhat, editTextChieuDai, editTextChieuRong;
+    Button btnTinh_HCNhat;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +23,7 @@ public class HinhChuNhat extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        editTextChieuDai = findViewById(R.id.edtChieuDai);
+        
     }
 }

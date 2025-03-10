@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="40dp"
-        android:background="#CDDC39"
+        android:background="#DB85E9"
         >
         <TextView
             android:layout_width="match_parent"
@@ -93,7 +93,7 @@
         <Button
             android:id="@+id/btnHinhChuNhat"
             android:layout_width="104dp"
-            android:backgroundTint="#03A9F4"
+            android:backgroundTint="#8BC34A"
             android:layout_height="match_parent"
             android:gravity="center"
             android:textColor="@color/design_default_color_error"

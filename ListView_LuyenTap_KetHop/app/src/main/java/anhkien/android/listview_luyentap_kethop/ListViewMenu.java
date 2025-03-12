@@ -1,6 +1,7 @@
 package anhkien.android.listview_luyentap_kethop;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,9 @@ public class ListViewMenu extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ListView listViewMenu = findViewById(R.id.LVmenu);
+
+        String monAn = getIntent().getStringExtra("onAn");
+
     }
 }

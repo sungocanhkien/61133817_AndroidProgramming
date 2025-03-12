@@ -29,7 +29,7 @@ public class ListViewMenu extends AppCompatActivity {
         });
         ListView listViewMenu = findViewById(R.id.LVmenu);
 
-        String MonAn = getIntent().getStringExtra("onAn");
+        String MonAn = getIntent().getStringExtra("MonAn");
 
         ArrayList<String> dsMonAn = new ArrayList<>();
         if ("Món Rán".equals(MonAn)){

@@ -67,3 +67,9 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ChuVi_DienTich_TronVuongTamGiac/Result_hinhTron.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ChuVi_DienTich_TronVuongTamGiac/Result_hinhVuong.PNG" width = "200">
 </div>
+<div>
+  <h4>ListView_LuyenTap: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/ListView_LuyenTap_KetHop">ListView_LuyenTap_KetHop</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_LuyenTap_KetHop/Result1.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_LuyenTap_KetHop/Result2.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_LuyenTap_KetHop/Result3.PNG" width = "200">
+</div>

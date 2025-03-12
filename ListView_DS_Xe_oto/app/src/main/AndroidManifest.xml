@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ListView_DS_Xe_oto"
         tools:targetApi="31">
         <activity
+            android:name=".ListView_ChiTiet_xeOTO"
+            android:exported="false" />
+        <activity
+            android:name=".ListView_DS_oto"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

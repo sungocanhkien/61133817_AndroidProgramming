@@ -20,9 +20,22 @@
         android:background="#D1F8A4">
     </TextView>
     <Button
+        android:id="@+id/btnRan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Món chiên rán"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:backgroundTint="#CDDC39"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp">
+    </Button>
+    <Button
+        android:id="@+id/btnCanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Món canh"
         android:textStyle="bold"
         android:textSize="25dp"
         android:backgroundTint="#F8115F"

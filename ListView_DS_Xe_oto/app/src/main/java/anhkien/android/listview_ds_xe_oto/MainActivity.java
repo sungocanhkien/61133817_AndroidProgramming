@@ -35,5 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(oto5cho);
             }
         });
+        button7cho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent oto7cho = new Intent(MainActivity.this, ListView_DS_oto.class);
+                oto7cho.putExtra("oto 7 chỗ ngồi", "Oto 7 chỗ");
+                startActivity(oto7cho);
+            }
+        });
     }
 }

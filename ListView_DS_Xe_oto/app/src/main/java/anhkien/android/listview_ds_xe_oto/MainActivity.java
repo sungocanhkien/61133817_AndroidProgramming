@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent oto5cho = new Intent(MainActivity.this, ListView_DS_oto.class);
-                oto5cho.putExtra("oto 5 chỗ ngồi", "Oto 5 chỗ");
+                oto5cho.putExtra("oto", "Oto 5 chỗ");
                 startActivity(oto5cho);
             }
         });
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent oto7cho = new Intent(MainActivity.this, ListView_DS_oto.class);
-                oto7cho.putExtra("oto 7 chỗ ngồi", "Oto 7 chỗ");
+                oto7cho.putExtra("oto", "Oto 7 chỗ");
                 startActivity(oto7cho);
             }
         });

@@ -1,6 +1,8 @@
 package anhkien.android.listview_ds_xe_oto;
 
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,9 @@ public class ListView_ChiTiet_xeOTO extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ImageView imageViewOTO = findViewById(R.id.imageXEoto);
+        TextView textViewoto = findViewById(R.id.txtTenOTO);
+        TextView textViewchitietoto = findViewById(R.id.txtChiTietOto);
+        
     }
 }

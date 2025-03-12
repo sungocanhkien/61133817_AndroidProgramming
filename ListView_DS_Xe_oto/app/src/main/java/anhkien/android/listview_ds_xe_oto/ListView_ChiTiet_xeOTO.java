@@ -25,6 +25,29 @@ public class ListView_ChiTiet_xeOTO extends AppCompatActivity {
         ImageView imageViewOTO = findViewById(R.id.imageXEoto);
         TextView textViewoto = findViewById(R.id.txtTenOTO);
         TextView textViewchitietoto = findViewById(R.id.txtChiTietOto);
-        
+
+        String TenOto = getIntent().getStringExtra("tên oto");
+        textViewoto.setText(TenOto);
+
+        switch (TenOto){
+            case "Toyota Corolla Altis":
+                textViewchitietoto.setText("Toyota Corolla Altis là mẫu sedan phổ biến với thiết kế sang trọng.");
+                break;
+            case "Honda Civic":
+                textViewchitietoto.setText("Honda Civic có phong cách thể thao, phù hợp với người trẻ.");
+                break;
+            case "Mazda 3":
+                textViewchitietoto.setText("Mazda 3 là dòng xe 5 chỗ hiện đại, nhiều công nghệ tiên tiến.");
+                break;
+            case "Toyota Fortuner":
+                textViewchitietoto.setText("Toyota Fortuner là SUV 7 chỗ mạnh mẽ, bền bỉ.");
+                break;
+            case "Ford Everest":
+                textViewchitietoto.setText("Ford Everest sở hữu động cơ mạnh mẽ và khả năng off-road tốt.");
+                break;
+            case "Mitsubishi Xpander":
+                textViewchitietoto.setText("Mitsubishi Xpander là mẫu SUV 7 chỗ đô thị với giá thành hợp lý.");
+                break;
+        }
     }
 }

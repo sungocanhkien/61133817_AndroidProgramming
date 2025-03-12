@@ -1,6 +1,8 @@
 package anhkien.android.listview_luyentap_kethop;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -24,6 +26,22 @@ public class MainActivity extends AppCompatActivity {
         Button buttonRan = findViewById(R.id.btnRan);
         Button buttonCanh = findViewById(R.id.btnCanh);
 
+        buttonRan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent monRan = new Intent(MainActivity.this, ListViewMenu.class);
+                monRan.putExtra("MonAn", "Món Rán");
+                startActivity(monRan);
+            }
+        });
 
+        buttonCanh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent monCanh = new Intent(MainActivity.this, ListViewMenu.class);
+                monCanh.putExtra("MonAn", "Món Canh");
+                startActivity(monCanh);
+            }
+        });
     }
 }

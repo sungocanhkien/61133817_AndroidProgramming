@@ -1,5 +1,6 @@
 package anhkien.android.listview_ds_xe_oto;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -47,7 +48,9 @@ public class ListView_DS_oto extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String chonOTO = DS_oto.get(position);
-                
+                Intent intentDS_oto = new Intent(ListView_DS_oto.this, ListView_ChiTiet_xeOTO.class);
+                intentDS_oto.putExtra("tên oto", chonOTO);
+                startActivity(intentDS_oto);
             }
         });
     }

@@ -1,6 +1,9 @@
 package anhkien.android.listview_ds_xe_oto;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -29,9 +32,23 @@ public class ListView_DS_oto extends AppCompatActivity {
 
         ArrayList<String> DS_oto = new ArrayList<>();
         if ("Oto 5 chỗ".equals(DStenOto)){
-            DS_oto.add("Toyota Camry");
-            DS_oto.add("Honda Accord");
-            DS_oto.add("Mazda 6");
+            DS_oto.add("Toyota Corolla Altis");
+            DS_oto.add("Honda Civic");
+            DS_oto.add("Mazda 3");
+        } else if ("Oto 7 chỗ".equals(DStenOto)) {
+            DS_oto.add("Toyota Fortuner");
+            DS_oto.add("Ford Everest");
+            DS_oto.add("Mistsubishi Xpander");
         }
+        ArrayAdapter<String> adapterDSoto = new ArrayAdapter<>(this, android.R.layout.simple_expandable_list_item_1, DS_oto);
+        listViewDSoto.setAdapter(adapterDSoto);
+
+        listViewDSoto.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String chonOTO = DS_oto.get(position);
+                
+            }
+        });
     }
 }

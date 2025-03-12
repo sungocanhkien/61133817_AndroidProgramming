@@ -1,6 +1,7 @@
 package anhkien.android.listview_ds_xe_oto;
 
 import android.os.Bundle;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,7 @@ public class ListView_DS_oto extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ListView listViewDSoto = findViewById(R.id.dsOto);
+        
     }
 }

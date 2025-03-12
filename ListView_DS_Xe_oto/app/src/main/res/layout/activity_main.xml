@@ -8,6 +8,41 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XE OTO"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="#FBE41A"
+        android:textColor="#0F96D3">
+    </TextView>
+    <Button
+        android:id="@+id/btn5cho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oto 5 chỗ"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:backgroundTint="#119DDC"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp">
+    </Button>
+    <Button
+        android:id="@+id/btn7cho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oto 7 chỗ"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp">
+    </Button>
 </LinearLayout>

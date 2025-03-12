@@ -9,6 +9,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class ListViewMenu extends AppCompatActivity {
 
     @Override
@@ -23,7 +25,15 @@ public class ListViewMenu extends AppCompatActivity {
         });
         ListView listViewMenu = findViewById(R.id.LVmenu);
 
-        String monAn = getIntent().getStringExtra("onAn");
+        String MonAn = getIntent().getStringExtra("onAn");
 
+        ArrayList<String> dsMonAn = new ArrayList<>();
+        if ("Món Rán".equals(MonAn)){
+            dsMonAn.add("Cá rán");
+            dsMonAn.add("Tôm rán");
+            dsMonAn.add("Thịt rán");
+        } else if ("Món Canh".equals(MonAn)) {
+            
+        }
     }
 }

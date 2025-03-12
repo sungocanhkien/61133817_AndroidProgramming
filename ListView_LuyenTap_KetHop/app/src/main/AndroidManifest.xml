@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ListView_LuyenTap_KetHop"
         tools:targetApi="31">
         <activity
+            android:name=".ListViewMenu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

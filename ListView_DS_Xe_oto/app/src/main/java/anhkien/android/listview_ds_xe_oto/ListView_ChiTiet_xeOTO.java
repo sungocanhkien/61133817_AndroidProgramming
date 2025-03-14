@@ -28,21 +28,27 @@ public class ListView_ChiTiet_xeOTO extends AppCompatActivity {
 
         String TenOto = getIntent().getStringExtra("tên oto");
         textViewoto.setText(TenOto);
+        int image1 = R.drawable.ford_everest;
+        int image2 = R.drawable.honda_civic;
+        int image3 = R.drawable.mazda_3;
 
         switch (TenOto){
             case "Toyota Corolla Altis":
                 textViewchitietoto.setText("Toyota Corolla Altis là mẫu sedan phổ biến với thiết kế sang trọng.");
                 break;
             case "Honda Civic":
+                image2 = R.drawable.honda_civic;
                 textViewchitietoto.setText("Honda Civic có phong cách thể thao, phù hợp với người trẻ.");
                 break;
             case "Mazda 3":
+                image3 = R.drawable.mazda_3;
                 textViewchitietoto.setText("Mazda 3 là dòng xe 5 chỗ hiện đại, nhiều công nghệ tiên tiến.");
                 break;
             case "Toyota Fortuner":
                 textViewchitietoto.setText("Toyota Fortuner là SUV 7 chỗ mạnh mẽ, bền bỉ.");
                 break;
             case "Ford Everest":
+                image1 = R.drawable.ford_everest;
                 textViewchitietoto.setText("Ford Everest sở hữu động cơ mạnh mẽ và khả năng off-road tốt.");
                 break;
             case "Mitsubishi Xpander":

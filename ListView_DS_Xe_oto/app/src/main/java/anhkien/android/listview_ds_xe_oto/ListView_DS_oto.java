@@ -39,7 +39,7 @@ public class ListView_DS_oto extends AppCompatActivity {
         } else if ("Oto 7 chỗ".equals(DStenOto)) {
             DS_oto.add("Toyota Fortuner");
             DS_oto.add("Ford Everest");
-            DS_oto.add("Mistsubishi Xpander");
+            DS_oto.add("Mitsubishi Xpander");
         }
         ArrayAdapter<String> adapterDSoto = new ArrayAdapter<>(this, android.R.layout.simple_expandable_list_item_1, DS_oto);
         listViewDSoto.setAdapter(adapterDSoto);

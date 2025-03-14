@@ -28,32 +28,39 @@ public class ListView_ChiTiet_xeOTO extends AppCompatActivity {
 
         String TenOto = getIntent().getStringExtra("tên oto");
         textViewoto.setText(TenOto);
-        int image1 = R.drawable.ford_everest;
-        int image2 = R.drawable.honda_civic;
-        int image3 = R.drawable.mazda_3;
 
-        switch (TenOto){
+        int imageResource = R.drawable.ferrari;
+        String chitiet = "Thông tin chưa có";
+
+        switch (TenOto) {
             case "Toyota Corolla Altis":
-                textViewchitietoto.setText("Toyota Corolla Altis là mẫu sedan phổ biến với thiết kế sang trọng.");
+                imageResource = R.drawable.toyota_coroll_a_altis;
+                chitiet = "Toyota Corolla Altis là mẫu sedan phổ biến với thiết kế sang trọng.";
                 break;
             case "Honda Civic":
-                image2 = R.drawable.honda_civic;
-                textViewchitietoto.setText("Honda Civic có phong cách thể thao, phù hợp với người trẻ.");
+                imageResource = R.drawable.honda_civic;
+                chitiet = "Honda Civic có phong cách thể thao, phù hợp với người trẻ.";
                 break;
             case "Mazda 3":
-                image3 = R.drawable.mazda_3;
-                textViewchitietoto.setText("Mazda 3 là dòng xe 5 chỗ hiện đại, nhiều công nghệ tiên tiến.");
+                imageResource = R.drawable.mazda_3;
+                chitiet = "Mazda 3 là dòng xe 5 chỗ hiện đại, nhiều công nghệ tiên tiến.";
                 break;
             case "Toyota Fortuner":
-                textViewchitietoto.setText("Toyota Fortuner là SUV 7 chỗ mạnh mẽ, bền bỉ.");
+                imageResource = R.drawable.toyota_fortuner;
+                chitiet = "Toyota Fortuner là SUV 7 chỗ mạnh mẽ, bền bỉ.";
                 break;
             case "Ford Everest":
-                image1 = R.drawable.ford_everest;
-                textViewchitietoto.setText("Ford Everest sở hữu động cơ mạnh mẽ và khả năng off-road tốt.");
+                imageResource = R.drawable.ford_everest;
+                chitiet = "Ford Everest sở hữu động cơ mạnh mẽ và khả năng off-road tốt.";
                 break;
             case "Mitsubishi Xpander":
-                textViewchitietoto.setText("Mitsubishi Xpander là mẫu SUV 7 chỗ đô thị với giá thành hợp lý.");
+                imageResource = R.drawable.mistsubishi_xpander;
+                chitiet = "Mitsubishi Xpander là mẫu SUV 7 chỗ đô thị với giá thành hợp lý.";
                 break;
         }
+
+        // Gán thông tin và ảnh vào giao diện
+        textViewchitietoto.setText(chitiet);
+        imageViewOTO.setImageResource(imageResource);
     }
 }

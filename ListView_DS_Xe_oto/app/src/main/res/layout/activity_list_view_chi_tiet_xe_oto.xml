@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Tên ô tô"
         android:textColor="@color/white"
-        android:background="#03AFC5"
+        android:background="@drawable/bogoc_textview"
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"

@@ -13,11 +13,11 @@
         android:layout_height="90dp"
         android:text="CÁC LOẠI XE OTO"
         android:textSize="30dp"
-        android:textColor="#E43E0A"
+        android:textColor="#0625D5"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="50dp"
-        android:background="#D1F8A4">
+        android:background="@drawable/bogoc_textview">
     </TextView>
     <ListView
         android:id="@+id/dsOto"

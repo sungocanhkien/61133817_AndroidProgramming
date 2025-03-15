@@ -31,8 +31,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:gravity="center"
-                android:background="#FBE41A"
-                android:textColor="#0F96D3">
+                android:background="@drawable/bogoc_textview"
+                android:textColor="#FFEB3B">
             </TextView>
             <Button
                 android:id="@+id/btn5cho"

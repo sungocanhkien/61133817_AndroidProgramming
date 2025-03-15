@@ -38,6 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Thông tin ô tô..."
         android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
         android:padding="10dp"
         android:layout_marginTop="16dp"/>
 </LinearLayout>

@@ -31,6 +31,28 @@
                 android:textColor="@color/green"
                 android:textAlignment="center">
             </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/myusernam"
+                android:background="@drawable/custom_edittext"
+                android:padding="10dp"
+                android:hint="User name"
+                android:textColor="@color/black"
+                android:layout_marginTop="40dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/password"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:padding="8dp"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

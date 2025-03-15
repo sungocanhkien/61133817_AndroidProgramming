@@ -12,7 +12,10 @@
         android:id="@+id/imageXEoto"
         android:layout_width="300dp"
         android:layout_marginTop="50dp"
+        android:background="@drawable/custom_edittext"
         android:layout_height="200dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
         android:scaleType="centerCrop"
         android:layout_gravity="center_horizontal"/>
 
@@ -35,5 +38,6 @@
         android:layout_height="wrap_content"
         android:text="Thông tin ô tô..."
         android:textSize="18sp"
+        android:padding="10dp"
         android:layout_marginTop="16dp"/>
 </LinearLayout>

@@ -6,4 +6,10 @@
     <color name="yellow">#FFEB3B</color>
     <color name="orange">#FF9800</color>
     <color name="pink">#E91E63</color>
+    <color name="colorPrimary">#d81b60</color>
+    <color name="colorPrimaryDark">#a00037</color>
+    <color name="colorPrimaryLight">#ff5c8d</color>
+    <color name="colorAccent">#1e88e5</color>
+    <color name="colorAccentDark">#005cb2</color>
+    <color name="colorAccentLight">#6ab7ff</color>
 </resources>

@@ -29,7 +29,7 @@ public class login extends AppCompatActivity {
         EditText editTextusername = findViewById(R.id.myusernam);
         EditText editTextpass = findViewById(R.id.password);
         Button buttonbtn = findViewById(R.id.loginbtn);
-        
+
         buttonbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

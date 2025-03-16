@@ -6,11 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/custom_image"
     tools:context=".ListView_DS_oto">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:text="CÁC LOẠI XE OTO"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
         android:textSize="30dp"
         android:textColor="#0625D5"
         android:textStyle="bold"

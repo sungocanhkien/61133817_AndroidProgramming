@@ -52,12 +52,12 @@ Các bài tập và bài thực hành về Android
 
 <h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
 <div>
-  <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/App_BMI">App_BMI</a>/a></h4>
+  <h4>App_BMI: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/App_BMI">App_BMI</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result_Design.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result.PNG" width = "200">
 </div>
 <div>
-  <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/km_to_m_App">km_to_m_App</a>/a></h4>
+  <h4>Km_to_m_app: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/km_to_m_App">km_to_m_App</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/km_to_m_App/Result.PNG" width = "200">
 </div>
 <div>
@@ -78,4 +78,12 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_LuyenTap_KetHop/Result1.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_LuyenTap_KetHop/Result2.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_LuyenTap_KetHop/Result3.PNG" width = "200">
+</div>
+<div>
+  <h4>ListView_DS_Xe_oto: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/ListView_DS_Xe_oto">ListView_DS_Xe_oto</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_1.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_2.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_3.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_4.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_5.PNG" width = "200">
 </div>

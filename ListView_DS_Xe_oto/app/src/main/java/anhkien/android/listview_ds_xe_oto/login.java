@@ -29,11 +29,7 @@ public class login extends AppCompatActivity {
         EditText editTextusername = findViewById(R.id.myusernam);
         EditText editTextpass = findViewById(R.id.password);
         Button buttonbtn = findViewById(R.id.loginbtn);
-
-        GradientDrawable colorloginbtn = new GradientDrawable();
-        colorloginbtn.setColor(0xFF228B22);
-        buttonbtn.setBackground(colorloginbtn);
-
+        
         buttonbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

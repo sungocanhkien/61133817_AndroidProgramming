@@ -1,6 +1,7 @@
 package anhkien.android.listview_ds_xe_oto;
 
 import android.content.Intent;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +29,10 @@ public class login extends AppCompatActivity {
         EditText editTextusername = findViewById(R.id.myusernam);
         EditText editTextpass = findViewById(R.id.password);
         Button buttonbtn = findViewById(R.id.loginbtn);
+
+        GradientDrawable colorloginbtn = new GradientDrawable();
+        colorloginbtn.setColor(0xFF228B22);
+        buttonbtn.setBackground(colorloginbtn);
 
         buttonbtn.setOnClickListener(new View.OnClickListener() {
             @Override

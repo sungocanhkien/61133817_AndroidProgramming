@@ -32,7 +32,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:gravity="center"
-                android:background="@drawable/bogoc_textview"
+                android:background="@drawable/custom_edittext"
                 android:textColor="#FFEB3B">
             </TextView>
             <Button

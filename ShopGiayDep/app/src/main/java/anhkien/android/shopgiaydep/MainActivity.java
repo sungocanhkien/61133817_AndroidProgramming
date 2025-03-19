@@ -1,6 +1,8 @@
 package anhkien.android.shopgiaydep;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        EditText editTextEmail = findViewById(R.id.edtemail);
+        EditText editTextPass = findViewById(R.id.edtpass);
+        Button buttonLogin = findViewById(R.id.btnlogin);
+
+        
     }
 }

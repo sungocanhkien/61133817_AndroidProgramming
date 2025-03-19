@@ -32,8 +32,9 @@ public class MainActivity extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (editTextEmail.getText().toString().equals("AnhKien") && editTextPass.getText().toString().equals(12345)){
+                if (editTextEmail.getText().toString().equals("AnhKien") && editTextPass.getText().toString().equals("12345")){
                     Intent intentLogin = new Intent(MainActivity.this, DS_Giay_Dep.class);
+                    startActivity(intentLogin);
                 } else {
                     Toast.makeText(MainActivity.this, "Email hoặc Pass đã sai! Hãy kiểm tra lại", Toast.LENGTH_SHORT).show();
                 }

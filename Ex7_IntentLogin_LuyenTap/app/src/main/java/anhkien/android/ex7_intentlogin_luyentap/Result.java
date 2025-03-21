@@ -1,6 +1,7 @@
 package anhkien.android.ex7_intentlogin_luyentap;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +21,10 @@ public class Result extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        EditText editTextresult = findViewById(R.id.edtresult);
+        String email = getIntent().getStringExtra("email");
+        if (email!=null){
+            editTextresult.setText(email);
+        }
     }
 }

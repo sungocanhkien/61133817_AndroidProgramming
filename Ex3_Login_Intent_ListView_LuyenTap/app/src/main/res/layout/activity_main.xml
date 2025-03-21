@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/may"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -19,7 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="90dp">
+            android:padding="20dp"
+            >
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,14 +42,25 @@
                 android:layout_marginTop="20dp"
                 android:padding="10dp"
                 android:hint="Email">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bogoc"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:hint="Pass">
 
             </EditText>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:text="Login">
+                android:layout_marginTop="30dp"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                >
 
             </Button>
         </LinearLayout>

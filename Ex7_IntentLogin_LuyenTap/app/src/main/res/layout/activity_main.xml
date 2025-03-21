@@ -27,11 +27,13 @@
         android:layout_marginLeft="30dp"
         android:orientation="vertical">
         <EditText
+            android:id="@+id/edtemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email">
         </EditText>
         <EditText
+            android:id="@+id/edtpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -39,6 +41,7 @@
         </EditText>
     </LinearLayout>
     <Button
+        android:id="@+id/btnlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"

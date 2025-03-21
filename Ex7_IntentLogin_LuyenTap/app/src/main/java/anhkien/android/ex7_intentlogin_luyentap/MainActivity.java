@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -35,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentLogin = new Intent(MainActivity.this,Result.class);
                     intentLogin.putExtra("email", "AnhKien");
                     startActivity(intentLogin);
+                } else {
+                    Toast.makeText(MainActivity.this, "Email hoặc Pass sai! Hãy nhập lại!", Toast.LENGTH_SHORT).show();
+                    editTextemail.setText("");
+                    editTextpass.setText("");
                 }
             }
         });

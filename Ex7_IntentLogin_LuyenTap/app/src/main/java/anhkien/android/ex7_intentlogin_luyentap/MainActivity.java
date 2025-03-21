@@ -1,5 +1,6 @@
 package anhkien.android.ex7_intentlogin_luyentap;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (editTextemail.getText().toString().equals("AnhKien") && editTextpass.getText().toString().equals("123")){
-
+                    Intent intentLogin = new Intent(MainActivity.this,Result.class);
+                    intentLogin.putExtra("email", "AnhKien");
+                    startActivity(intentLogin);
                 }
             }
         });

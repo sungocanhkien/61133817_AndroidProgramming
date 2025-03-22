@@ -38,7 +38,12 @@ public class PhepTong extends AppCompatActivity {
                 String nut1 = editTextSo1.getText().toString();
                 String nut2 = editTextSo2.getText().toString();
                 if (!nut1.isEmpty() && !nut2.isEmpty()){
-                    int so1 =
+                    int so1 = Integer.parseInt(nut1);
+                    int so2 = Integer.parseInt(nut2);
+                    int sum = so1 + so2;
+
+                    String tong = so1 + " + " + so2 + " = " + sum;
+                    DSpheptinh.add(tong);
                 }
             }
         });

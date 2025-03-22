@@ -1,7 +1,9 @@
 package anhkien.android.ex3_login_intent_listview_luyentap;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +11,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class DanhSachPhepTinh extends AppCompatActivity {
+import java.util.ArrayList;
 
+public class DanhSachPhepTinh extends AppCompatActivity {
+    ListView listViewDSphepTinh;
+    ArrayList<String> dspheptinh;
+    ArrayAdapter<String> adapterPhepTinh;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +27,7 @@ public class DanhSachPhepTinh extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        listViewDSphepTinh = findViewById(R.id.listPhepTinh);
+        
     }
 }

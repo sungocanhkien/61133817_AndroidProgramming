@@ -15,14 +15,14 @@
         android:background="#58E2F4"
         android:textSize="25dp"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:gravity="center"
-        android:layout_marginTop="60dp"
         >
     </TextView>
     <LinearLayout
         android:layout_width="match_parent"
         android:gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:background="@drawable/bogoc"
@@ -41,7 +41,7 @@
         android:background="@drawable/bogoc_hinhla"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:padding="8dp">
         <EditText
             android:id="@+id/edtso1"
@@ -60,7 +60,7 @@
         android:background="@drawable/bogoc_hinhla"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:padding="8dp">
         <EditText
             android:id="@+id/edtso2"
@@ -79,7 +79,7 @@
         android:background="@drawable/bogoc_hinhla"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:padding="8dp">
         <EditText
             android:id="@+id/edtketqua"

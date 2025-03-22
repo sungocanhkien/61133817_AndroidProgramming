@@ -73,12 +73,31 @@
             >
         </EditText>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bogoc_hinhla"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="8dp">
+        <EditText
+            android:id="@+id/edtketqua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kết quả"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+        </EditText>
+    </LinearLayout>
     <Button
         android:id="@+id/btntinh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tính"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="100dp"
         android:layout_marginLeft="100dp"
         android:textStyle="bold"
@@ -89,7 +108,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Danh sách"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="100dp"
         android:layout_marginLeft="100dp"
         android:textStyle="bold"

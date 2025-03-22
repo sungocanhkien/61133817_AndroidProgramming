@@ -1,6 +1,8 @@
 package anhkien.android.ex3_login_intent_listview_luyentap;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,11 @@ public class PhepTong extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        EditText editTextSo1 = findViewById(R.id.edtso1);
+        EditText editTextSo2 = findViewById(R.id.edtso2);
+        Button buttontinh = findViewById(R.id.btntinh);
+        Button buttonList = findViewById(R.id.btnList);
+
+        
     }
 }

@@ -1,6 +1,7 @@
 package anhkien.android.ex3_login_intent_listview_luyentap;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -9,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import java.util.ArrayList;
 
 public class PhepTong extends AppCompatActivity {
 
@@ -27,6 +30,13 @@ public class PhepTong extends AppCompatActivity {
         Button buttontinh = findViewById(R.id.btntinh);
         Button buttonList = findViewById(R.id.btnList);
 
-        
+        //Khởi tạo listView
+        ArrayList<String> DSpheptinh = new ArrayList<>();
+        buttontinh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
     }
 }

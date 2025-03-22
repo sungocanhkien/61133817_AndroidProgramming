@@ -1,5 +1,6 @@
 package anhkien.android.ex3_login_intent_listview_luyentap;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -45,6 +46,14 @@ public class PhepTong extends AppCompatActivity {
                     String tong = so1 + " + " + so2 + " = " + sum;
                     DSpheptinh.add(tong);
                 }
+            }
+        });
+        buttonList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentDStong = new Intent(PhepTong.this, DanhSachPhepTinh.class);
+                intentDStong.putStringArrayListExtra("danhsach", DSpheptinh);
+                startActivity(intentDStong);
             }
         });
     }

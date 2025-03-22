@@ -28,6 +28,7 @@ public class PhepTong extends AppCompatActivity {
         });
         EditText editTextSo1 = findViewById(R.id.edtso1);
         EditText editTextSo2 = findViewById(R.id.edtso2);
+        EditText editTextketqua = findViewById(R.id.edtketqua);
         Button buttontinh = findViewById(R.id.btntinh);
         Button buttonList = findViewById(R.id.btnList);
 
@@ -42,6 +43,9 @@ public class PhepTong extends AppCompatActivity {
                     int so1 = Integer.parseInt(nut1);
                     int so2 = Integer.parseInt(nut2);
                     int sum = so1 + so2;
+
+                    String ketquatinh = String.valueOf(sum);
+                    editTextketqua.setText(ketquatinh);
 
                     String tong = so1 + " + " + so2 + " = " + sum;
                     DSpheptinh.add(tong);

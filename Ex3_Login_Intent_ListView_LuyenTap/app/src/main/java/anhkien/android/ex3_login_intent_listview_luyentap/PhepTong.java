@@ -35,7 +35,11 @@ public class PhepTong extends AppCompatActivity {
         buttontinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                String nut1 = editTextSo1.getText().toString();
+                String nut2 = editTextSo2.getText().toString();
+                if (!nut1.isEmpty() && !nut2.isEmpty()){
+                    int so1 =
+                }
             }
         });
     }

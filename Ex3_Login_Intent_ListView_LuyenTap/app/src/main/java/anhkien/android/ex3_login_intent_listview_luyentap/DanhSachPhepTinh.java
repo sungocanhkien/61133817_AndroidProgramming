@@ -28,6 +28,11 @@ public class DanhSachPhepTinh extends AppCompatActivity {
             return insets;
         });
         listViewDSphepTinh = findViewById(R.id.listPhepTinh);
-        
+        dspheptinh = getIntent().getStringArrayListExtra("danhsach");
+        if (dspheptinh == null){
+            dspheptinh = new ArrayList<>();
+        }
+        adapterPhepTinh = new ArrayAdapter<>(this, android.R.layout.simple_expandable_list_item_1, dspheptinh);
+        listViewDSphepTinh.setAdapter(adapterPhepTinh);
     }
 }

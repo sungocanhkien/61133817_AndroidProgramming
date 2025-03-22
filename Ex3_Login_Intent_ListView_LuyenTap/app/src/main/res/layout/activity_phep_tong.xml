@@ -16,7 +16,7 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         >
     </TextView>
     <LinearLayout
@@ -73,4 +73,14 @@
             >
         </EditText>
     </LinearLayout>
+    <Button
+        android:id="@+id/btntinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textSize="20dp"></Button>
 </LinearLayout>

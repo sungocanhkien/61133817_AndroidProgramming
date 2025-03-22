@@ -15,6 +15,14 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex3_SimpleSumApp/Result_Ex3.PNG" width = "200">
 </div>
 <div>
+  <h4>EX3_LuyenTap: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Ex3_Login_Intent_ListView_LuyenTap">EX3_Login_Intent_ListView</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex3_Login_Intent_ListView_LuyenTap/result1.png" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex3_Login_Intent_ListView_LuyenTap/result2.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex3_Login_Intent_ListView_LuyenTap/result3.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex3_Login_Intent_ListView_LuyenTap/result4.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex3_Login_Intent_ListView_LuyenTap/result5.PNG" width = "200">
+</div>
+<div>
   <h4>EX4: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Ex4_AddSubMulDiv_Onclick">Ex4_AddSubMulDiv_Onclick</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Ex4_AddSubMulDiv_Onclick/Result_Ex4.PNG" width = "200">
 </div>

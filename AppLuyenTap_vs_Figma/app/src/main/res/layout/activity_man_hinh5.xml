@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageNen5"></ImageView>
 
     <ImageView
-        android:id="@+id/imageViewSo3"
+        android:id="@+id/imageViewSo4"
         android:layout_width="57dp"
         android:layout_height="49dp"
         android:layout_marginTop="12dp"
@@ -91,7 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toEndOf="@+id/imageViewSo9"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewSo3"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSo4"></ImageView>
 
     <ImageView
         android:id="@+id/imageViewSo9"

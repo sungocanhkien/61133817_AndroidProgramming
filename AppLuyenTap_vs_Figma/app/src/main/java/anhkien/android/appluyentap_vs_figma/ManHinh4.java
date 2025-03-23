@@ -54,7 +54,7 @@ public class ManHinh4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(ManHinh4.this, "Đúng rồi nà! Nhấn tiếp theo để tiếp tục nà!", Toast.LENGTH_SHORT).show();
-                imageViewSo4.setVisibility(View.VISIBLE);
+                imageViewTTheo4.setVisibility(View.VISIBLE);
             }
         });
         imageViewTTheo4.setOnClickListener(new View.OnClickListener() {

@@ -95,3 +95,8 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_4.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/ListView_DS_Xe_oto/Result_5.PNG" width = "200">
 </div>
+<div>
+  <h4>LuyenTap_figma: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/LuyenTap_vs_Figma">LuyenTap_figma</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_vs_Figma/result1.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_vs_Figma/result2.PNG" width = "200">
+</div>

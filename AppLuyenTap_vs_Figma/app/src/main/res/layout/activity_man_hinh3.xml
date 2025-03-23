@@ -45,7 +45,7 @@
         android:layout_width="366dp"
         android:layout_height="93dp"
         android:layout_marginTop="32dp"
-        android:src="@drawable/chao2"
+        android:src="@drawable/chao3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"

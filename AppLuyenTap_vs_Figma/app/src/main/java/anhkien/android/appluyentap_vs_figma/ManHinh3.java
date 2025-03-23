@@ -1,6 +1,8 @@
 package anhkien.android.appluyentap_vs_figma;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -22,6 +24,21 @@ public class ManHinh3 extends AppCompatActivity {
             return insets;
         });
         imageViewNha = findViewById(R.id.imageHome);
+        imageViewSao = findViewById(R.id.image2ngoisao);
+        imageViewTam = findViewById(R.id.image2tamgiac);
+        imageViewTron = findViewById(R.id.image2tron);
+        imageViewVuong = findViewById(R.id.image2chunhat);
+        imageViewTTheo = findViewById(R.id.imageTiepTheo);
+        imageViewTTheo.setVisibility(View.GONE);
+
+        imageViewNha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentMain = new Intent(ManHinh3.this, Manifest.class);
+                startActivity(intentMain);
+                finish();
+            }
+        });
         
     }
 }

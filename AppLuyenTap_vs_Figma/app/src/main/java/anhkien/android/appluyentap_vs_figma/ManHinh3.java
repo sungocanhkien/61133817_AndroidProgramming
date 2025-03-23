@@ -1,6 +1,7 @@
 package anhkien.android.appluyentap_vs_figma;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +10,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class ManHinh3 extends AppCompatActivity {
-
+    ImageView imageViewNha, imageViewVuong, imageViewTron, imageViewTam, imageViewSao, imageViewTTheo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +21,7 @@ public class ManHinh3 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        imageViewNha = findViewById(R.id.imageHome);
+        
     }
 }

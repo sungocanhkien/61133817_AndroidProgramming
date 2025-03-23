@@ -5,17 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Home">
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints">
         <ImageView
-            android:id="@+id/image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/manhinhtruoc">
+            android:src="@drawable/home">
         </ImageView>
     </androidx.cardview.widget.CardView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -60,7 +60,8 @@ public class ManHinh3 extends AppCompatActivity {
         imageViewTTheo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentManHinh3
+                Intent intentManHinh3 = new Intent(ManHinh3.this, ManHinh4.class);
+                startActivity(intentManHinh3);
             }
         });
     }

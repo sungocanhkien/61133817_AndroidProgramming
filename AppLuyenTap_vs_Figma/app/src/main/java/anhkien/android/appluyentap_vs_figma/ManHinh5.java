@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class ManHinh5 extends AppCompatActivity {
-    ImageView imageViewNha5, imageViewTTheo5, imageViewSo6, imageViewSo3, imageViewSo9, imageViewSo7;
+    ImageView imageViewNha5, imageViewSo6, imageViewSo3, imageViewSo9, imageViewSo7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,44 +24,34 @@ public class ManHinh5 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        imageViewNha4 = findViewById(R.id.imageHome);
+        imageViewNha5 = findViewById(R.id.imageHome);
         imageViewSo6 = findViewById(R.id.imageViewSo6);
-        imageViewSo4 = findViewById(R.id.imageViewSo4);
+        imageViewSo3 = findViewById(R.id.imageViewSo4);
         imageViewSo9 = findViewById(R.id.imageViewSo9);
         imageViewSo7 = findViewById(R.id.imageViewSo7);
-        imageViewTTheo4 = findViewById(R.id.imageTiepTheo);
-        imageViewTTheo4.setVisibility(View.GONE);
 
-        imageViewNha4.setOnClickListener(new View.OnClickListener() {
+        imageViewNha5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentNha4 = new Intent(ManHinh4.this, MainActivity.class);
-                startActivity(intentNha4);
+                Intent intentNha5 = new Intent(ManHinh5.this, MainActivity.class);
+                startActivity(intentNha5);
                 finish();
             }
         });
         View.OnClickListener chonSai = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ManHinh4.this, "Sai rồi nà! Thử lại nà!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ManHinh5.this, "Sai rồi nà! Thử lại nà!", Toast.LENGTH_SHORT).show();
             }
         };
         imageViewSo6.setOnClickListener(chonSai);
         imageViewSo9.setOnClickListener(chonSai);
         imageViewSo7.setOnClickListener(chonSai);
 
-        imageViewSo4.setOnClickListener(new View.OnClickListener() {
+        imageViewSo3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ManHinh4.this, "Đúng rồi nà! Nhấn tiếp theo để tiếp tục nà!", Toast.LENGTH_SHORT).show();
-                imageViewTTheo4.setVisibility(View.VISIBLE);
-            }
-        });
-        imageViewTTheo4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentManHinh4 = new Intent(ManHinh4.this, ManHinh5.class);
-                startActivity(intentManHinh4);
+                Toast.makeText(ManHinh5.this, "Đúng rồi nà! Bạn đã hoàn thành! Nhấn Home để quay về trang chủ!", Toast.LENGTH_SHORT).show();
             }
         });
     }

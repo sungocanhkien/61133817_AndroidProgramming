@@ -1,7 +1,10 @@
 package anhkien.android.appluyentap_vs_figma;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,5 +27,33 @@ public class ManHinh2 extends AppCompatActivity {
         imageViewhome = findViewById(R.id.imageHome);
         imageViewHinhNgoiSao = findViewById(R.id.image2ngoisao);
         imageViewHinhTron = findViewById(R.id.image2tron);
+        imageViewTamgiac = findViewById(R.id.image2tamgiac);
+        imageViewHinhVuong = findViewById(R.id.image2chunhat);
+        imageViewNutTieptheo = findViewById(R.id.imageTiepTheo);
+
+        imageViewhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentManHinh2 = new Intent(ManHinh2.this, MainActivity.class);
+                startActivity(intentManHinh2);
+                finish();
+            }
+        });
+        View.OnClickListener chonSai = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ManHinh2.this, "Sai rồi! Hãy thử lại nà!", Toast.LENGTH_SHORT).show();
+            }
+        };
+        imageViewHinhVuong.setOnClickListener(chonSai);
+        imageViewHinhTron.setOnClickListener(chonSai);
+        imageViewHinhNgoiSao.setOnClickListener(chonSai);
+
+        imageViewTamgiac.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
     }
 }

@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2"></ImageView>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageMau"
         android:layout_width="219dp"
         android:layout_height="103dp"
         android:layout_marginTop="12dp"
@@ -53,12 +53,13 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3"></ImageView>
 
     <ImageView
+        android:id="@+id/imageHinhHoc"
         android:layout_width="347dp"
         android:layout_height="104dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/chon_hinh"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/imageMau"></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

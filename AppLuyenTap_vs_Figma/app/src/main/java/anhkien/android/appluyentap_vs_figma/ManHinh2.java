@@ -30,6 +30,7 @@ public class ManHinh2 extends AppCompatActivity {
         imageViewTamgiac = findViewById(R.id.image2tamgiac);
         imageViewHinhVuong = findViewById(R.id.image2chunhat);
         imageViewNutTieptheo = findViewById(R.id.imageTiepTheo);
+        imageViewNutTieptheo.setVisibility(View.GONE); //Ẩn nút tiếp theo
 
         imageViewhome.setOnClickListener(new View.OnClickListener() {
             @Override

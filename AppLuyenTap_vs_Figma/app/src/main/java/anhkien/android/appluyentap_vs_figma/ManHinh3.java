@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,6 +40,22 @@ public class ManHinh3 extends AppCompatActivity {
                 finish();
             }
         });
-        
+        View.OnClickListener chonSai = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ManHinh3.this, "Sai rồi nà! Hãy chọn lại nà!", Toast.LENGTH_SHORT).show();
+            }
+        };
+        imageViewTam.setOnClickListener(chonSai);
+        imageViewSao.setOnClickListener(chonSai);
+        imageViewTron.setOnClickListener(chonSai);
+
+        imageViewVuong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ManHinh3.this, "Đúng rồi nà! Nhấn tiếp theo để tiếp tục nà!", Toast.LENGTH_SHORT).show();
+                imageViewTTheo.setVisibility(View.VISIBLE);
+            }
+        });
     }
 }

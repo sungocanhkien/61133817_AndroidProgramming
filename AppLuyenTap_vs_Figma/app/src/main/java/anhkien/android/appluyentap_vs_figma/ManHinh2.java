@@ -52,7 +52,15 @@ public class ManHinh2 extends AppCompatActivity {
         imageViewTamgiac.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Toast.makeText(ManHinh2.this, "Chính xác! Hãy nhấn nút Tiếp theo để tiếp tục nà!", Toast.LENGTH_SHORT).show();
+                imageViewNutTieptheo.setVisibility(View.VISIBLE); //Hiển thị nút "Tiếp theo"
+            }
+        });
+        imageViewNutTieptheo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentManHinh2 = new Intent(ManHinh2.this, ManHinh3.class);
+                startActivity(intentManHinh2);
             }
         });
     }

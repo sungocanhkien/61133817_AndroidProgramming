@@ -35,7 +35,7 @@ public class ManHinh3 extends AppCompatActivity {
         imageViewNha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentMain = new Intent(ManHinh3.this, Manifest.class);
+                Intent intentMain = new Intent(ManHinh3.this, MainActivity.class);
                 startActivity(intentMain);
                 finish();
             }

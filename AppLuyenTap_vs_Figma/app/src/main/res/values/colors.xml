@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dahong">#FFE6B7B7</color>
+    <color name="xanhduong">#FF0E71F2</color>
+    <color name="vàng">#FFF3FF0C</color>
 </resources>

@@ -17,16 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageTiepTheo"
-        android:layout_width="147dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/nut_tieptheo"
-        app:layout_constraintEnd_toStartOf="@+id/imageHome"
-        app:layout_constraintHorizontal_bias="0.803"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"></ImageView>
 
     <ImageView
         android:id="@+id/imageHome"
@@ -44,12 +34,11 @@
         android:id="@+id/imageView3"
         android:layout_width="366dp"
         android:layout_height="93dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/nen5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageTiepTheo"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/imageHome"></ImageView>
 
     <ImageView
         android:id="@+id/imageNen5"
@@ -58,6 +47,7 @@
         android:layout_marginTop="12dp"
         android:src="@drawable/nenhinh5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"></ImageView>
 

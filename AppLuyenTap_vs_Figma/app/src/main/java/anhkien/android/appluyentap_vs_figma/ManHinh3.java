@@ -57,5 +57,11 @@ public class ManHinh3 extends AppCompatActivity {
                 imageViewTTheo.setVisibility(View.VISIBLE);
             }
         });
+        imageViewTTheo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentManHinh3
+            }
+        });
     }
 }

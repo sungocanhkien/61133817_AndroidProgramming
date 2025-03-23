@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ManHinh2">
+    tools:context=".ManHinh5">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="412dp"
@@ -19,8 +19,8 @@
 
     <ImageView
         android:id="@+id/imageTiepTheo"
-        android:layout_width="156dp"
-        android:layout_height="36dp"
+        android:layout_width="147dp"
+        android:layout_height="29dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/nut_tieptheo"
         app:layout_constraintEnd_toStartOf="@+id/imageHome"
@@ -30,8 +30,8 @@
 
     <ImageView
         android:id="@+id/imageHome"
-        android:layout_width="69dp"
-        android:layout_height="66dp"
+        android:layout_width="54dp"
+        android:layout_height="55dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/nut_home"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,10 +44,62 @@
         android:id="@+id/imageView3"
         android:layout_width="366dp"
         android:layout_height="93dp"
-        android:layout_marginTop="32dp"
-        android:src="@drawable/chao3"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/nen5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageTiepTheo"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageNen5"
+        android:layout_width="342dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/nenhinh5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewSo6"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/nen4_so6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageNen5"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewSo3"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/nen5_so3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSo6"
+        app:layout_constraintTop_toBottomOf="@+id/imageNen5"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewSo7"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nen4_so7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSo9"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSo3"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageViewSo9"
+        android:layout_width="59dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nen4_so9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSo6"></ImageView>
 </androidx.constraintlayout.widget.ConstraintLayout>

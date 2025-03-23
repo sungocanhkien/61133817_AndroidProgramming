@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageTiepTheo"></ImageView>
 
     <ImageView
-        android:id="@+id/imageNen4"
+        android:id="@+id/imageNen5"
         android:layout_width="342dp"
         android:layout_height="127dp"
         android:layout_marginTop="12dp"
@@ -69,10 +69,10 @@
         android:layout_marginTop="12dp"
         android:src="@drawable/nen4_so6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageNen4"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/imageNen5"></ImageView>
 
     <ImageView
-        android:id="@+id/imageViewSo4"
+        android:id="@+id/imageViewSo3"
         android:layout_width="57dp"
         android:layout_height="49dp"
         android:layout_marginTop="12dp"
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toEndOf="@+id/imageViewSo6"
-        app:layout_constraintTop_toBottomOf="@+id/imageNen4"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/imageNen5"></ImageView>
 
     <ImageView
         android:id="@+id/imageViewSo7"
@@ -91,7 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintStart_toEndOf="@+id/imageViewSo9"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewSo4"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSo3"></ImageView>
 
     <ImageView
         android:id="@+id/imageViewSo9"

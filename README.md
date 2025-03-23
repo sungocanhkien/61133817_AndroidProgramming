@@ -100,3 +100,14 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_vs_Figma/result1.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_vs_Figma/result2.PNG" width = "200">
 </div>
+<div>
+  <h4>App_LuyenTap_vs_Figma: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/AppLuyenTap_vs_Figma">App_LuyenTap_vs_Figma</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh1.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh2.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh3.png" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh4.png" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh55.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh6.png" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh7.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh8.png" width = "200">
+</div>

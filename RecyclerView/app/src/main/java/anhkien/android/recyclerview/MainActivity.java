@@ -28,8 +28,10 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         List<Car> danhSachXe = new ArrayList<>();
-        danhSachXe.add(new Car("Toyota Camry",));
-        danhSachXe.add(new Car("Honda Civic"));
-        danhSachXe.add(new Car("Ford Focus"));
+        danhSachXe.add(new Car("Toyota Camry",R.drawable.toyota_camry, "Xe sedan rộng rãi, tiết kiệm nhiên liệu."));
+        danhSachXe.add(new Car("Honda Civic", R.drawable.honda_civic,"Thiết kế thể thao, vận hành mạnh mẽ"));
+        danhSachXe.add(new Car("Ford Focus", R.drawable.ford_focus, "Xe nhỏ gọn, phù hợp di chuyển trong đô thị."));
+        CarAdapter adapter = new CarAdapter(danhSachXe);
+        recyclerView.setAdapter(adapter);
     }
 }

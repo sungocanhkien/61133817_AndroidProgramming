@@ -5,6 +5,10 @@ public class Car {
     private int hinhAnhId;
     private String moTa;
 
+    public Car(String toyotaCamry, int toyotaCamry1, String s) {
+
+    }
+
     public String getTen() {
         return ten;
     }

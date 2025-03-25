@@ -29,6 +29,13 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder> {
     public void onBindViewHolder(@NonNull CarViewHolder holder, int position) {
         Car xe = danhSachXe.get(position);
         holder.tenxe.setText(xe.getTen());
+        holder.hinhAnhXe.setImageResource(xe.getHinhAnhId());
+        holder.moTaXe.setText(xe.getMoTa());
+    }
+
+    @Override
+    public int getItemCount() {
+        return danhSachXe.size();
     }
 
     static class CarViewHolder extends RecyclerView.ViewHolder{
@@ -36,11 +43,12 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder> {
         ImageView hinhAnhXe;
         TextView moTaXe;
 
+
         public CarViewHolder(View view) {
-            super(itemView);
-            tenxe = itemView.findViewById(R.id.ten_xe);
-            hinhAnhXe = itemView.findViewById(R.id.hinh_anh_xe);
-            moTaXe = itemView.findViewById(R.id.mo_ta_xe);
+            super(view);
+            tenxe = view.findViewById(R.id.ten_xe);
+            hinhAnhXe = view.findViewById(R.id.hinh_anh_xe);
+            moTaXe = view.findViewById(R.id.mo_ta_xe);
         }
     }
 }

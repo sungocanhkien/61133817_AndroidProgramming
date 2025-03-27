@@ -5,8 +5,10 @@ public class Car {
     private int hinhAnhId;
     private String moTa;
 
-    public Car(String toyotaCamry, int toyotaCamry1, String s) {
-
+    public Car(String ten, int hinhAnhId, String moTa) {
+        this.ten = ten;
+        this.hinhAnhId = hinhAnhId;
+        this.moTa = moTa;
     }
 
     public String getTen() {

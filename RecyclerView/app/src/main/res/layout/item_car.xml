@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="8dp">
     <ImageView
         android:id="@+id/hinh_anh_xe"
@@ -14,6 +15,7 @@
     </ImageView>
     <LinearLayout
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
@@ -25,6 +27,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"

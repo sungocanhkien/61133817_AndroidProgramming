@@ -6,8 +6,8 @@
     android:padding="8dp">
     <ImageView
         android:id="@+id/hinh_anh_xe"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="280dp"
+        android:layout_height="180dp"
         android:scaleType="centerCrop"
         android:layout_marginEnd="8dp"
         >
@@ -32,7 +32,7 @@
             android:id="@+id/mo_ta_xe"
             android:textSize="14sp"
             android:textColor="#666666"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="5dp">
         </TextView>
     </LinearLayout>
 </LinearLayout>

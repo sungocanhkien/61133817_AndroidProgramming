@@ -57,6 +57,10 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Login/Result1.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Login/Result2_Login.PNG" width = "200">
 </div>
+<div>
+  <h4>RecyclerView: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/RecyclerView">RecyclerView</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/RecyclerView/result.PNG" width = "200">
+</div>
 
 <h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
 <div>

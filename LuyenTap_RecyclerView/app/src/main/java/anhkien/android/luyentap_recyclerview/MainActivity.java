@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     AdapterShop adapterShop;
     ArrayList<Shop> arrayListshop;
     RecyclerView recyclerViewShop;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        arrayListshop = DataforRecyclerView();
+        recyclerViewShop = findViewById(R.id.recyclerView);
     }
     ArrayList<Shop> DataforRecyclerView() {
         ArrayList<Shop> dsSP = new ArrayList<>();
@@ -32,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         dsSP.add(SP1);
         dsSP.add(new Shop("giaydabong", "Giày đá bóng"));
         dsSP.add(new Shop("giayden", "Giày đen"));
-
-        
+        return dsSP;
     }
 }

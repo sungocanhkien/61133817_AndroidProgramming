@@ -1,5 +1,7 @@
 package anhkien.android.luyentap_recyclerview;
 
+import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -11,16 +13,19 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class AdapterShop extends RecyclerView.Adapter<AdapterShop.shopViewHolder>{
-
+    Context context;
     ArrayList<Shop> arrayListShop;
 
-    public AdapterShop(ArrayList<Shop> arrayListShop) {
+    public AdapterShop(Context context, ArrayList<Shop> arrayListShop) {
+        this.context = context;
         this.arrayListShop = arrayListShop;
     }
 
     @NonNull
     @Override
     public shopViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        LayoutInflater giaybongro = LayoutInflater.from(context);
+        
         return null;
     }
 

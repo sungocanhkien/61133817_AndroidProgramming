@@ -1,6 +1,8 @@
 package anhkien.android.luyentap_login_intent_listview_recyclerview;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -26,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
         editTextname = findViewById(R.id.edtname);
         editTextpass = findViewById(R.id.edtpass);
         buttonlogin = findViewById(R.id.btnlogin);
-        
+
+        buttonlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (editTextname.getText().toString().equals("AnhKien") && editTextpass.getText().toString().equals("123")){
+                    Intent intentLogin = new Intent(MainActivity.this, )
+                }
+            }
+        });
     }
 }

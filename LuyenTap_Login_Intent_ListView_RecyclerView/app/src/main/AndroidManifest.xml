@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LuyenTap_Login_Intent_ListView_RecyclerView"
         tools:targetApi="31">
         <activity
+            android:name=".PhepTinh"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

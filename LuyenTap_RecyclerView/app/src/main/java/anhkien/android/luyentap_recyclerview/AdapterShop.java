@@ -8,7 +8,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class AdapterShop extends RecyclerView.Adapter<AdapterShop.shopViewHolder>{
+
+    ArrayList<Shop> arrayListShop;
+
+    public AdapterShop(ArrayList<Shop> arrayListShop) {
+        this.arrayListShop = arrayListShop;
+    }
 
     @NonNull
     @Override

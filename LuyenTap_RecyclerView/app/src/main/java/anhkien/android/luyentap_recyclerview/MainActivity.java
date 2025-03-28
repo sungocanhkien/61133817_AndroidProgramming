@@ -1,5 +1,6 @@
 package anhkien.android.luyentap_recyclerview;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -7,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Shop> arrayListshop;
     RecyclerView recyclerViewShop;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         });
         arrayListshop = DataforRecyclerView();
         recyclerViewShop = findViewById(R.id.recyclerView);
+        RecyclerView.LayoutManager layoutManagerLinear = new LinearLayoutManager(this);
+        recyclerViewShop.setLayoutManager(layoutManagerLinear);
+        adapterShop = new AdapterShop(this,arrayListshop);
+        recyclerViewShop.setAdapter(adapterShop);
+
     }
     ArrayList<Shop> DataforRecyclerView() {
         ArrayList<Shop> dsSP = new ArrayList<>();

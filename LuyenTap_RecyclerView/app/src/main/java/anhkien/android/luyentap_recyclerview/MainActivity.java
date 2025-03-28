@@ -7,9 +7,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+    AdapterShop adapterShop;
+    ArrayList<Shop> arrayListshop;
+    RecyclerView recyclerViewShop;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +25,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    ArrayList<Shop> DataforRecyclerView() {
+        ArrayList<Shop> dsSP = new ArrayList<>();
+        Shop SP1 = new Shop("giaybongro", "Giày bóng rổ");
+        dsSP.add(SP1);
+        dsSP.add(new Shop("giaydabong", "Giày đá bóng"));
+        dsSP.add(new Shop("giayden", "Giày đen"));
+
+        
     }
 }

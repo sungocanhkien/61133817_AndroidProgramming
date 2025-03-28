@@ -25,13 +25,21 @@ public class AdapterShop extends RecyclerView.Adapter<AdapterShop.shopViewHolder
     @Override
     public shopViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater giaybongro = LayoutInflater.from(context);
-        
+        View viewSP = giaybongro.inflate(R.layout.item_sanpham, parent, false);
+        shopViewHolder viewHolder = new shopViewHolder(viewSP);
         return null;
     }
 
     @Override
     public void onBindViewHolder(@NonNull shopViewHolder holder, int position) {
-
+        Shop shopHienThi = arrayListShop.get(position);
+        int anh = shopHienThi.getHinhAnh();
+        String tenAnh = shopHienThi.getTenAnh();
+        String motaAnh = shopHienThi.getMoTa();
+        holder.textViewTenSp.setText(shopHienThi.tenAnh);
+        holder.textViewMota.setText(shopHienThi.moTa);
+        String packagename = holder.itemView.getContext().getPackageName();
+        int imageID = holder.itemView.getResources().getIdentifier()
     }
 
     @Override

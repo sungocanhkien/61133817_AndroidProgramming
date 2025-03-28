@@ -36,15 +36,17 @@ public class AdapterShop extends RecyclerView.Adapter<AdapterShop.shopViewHolder
         int anh = shopHienThi.getHinhAnh();
         String tenAnh = shopHienThi.getTenAnh();
         String motaAnh = shopHienThi.getMoTa();
+        String AnhHienThi = String.valueOf(shopHienThi.getHinhAnh());
         holder.textViewTenSp.setText(shopHienThi.tenAnh);
         holder.textViewMota.setText(shopHienThi.moTa);
         String packagename = holder.itemView.getContext().getPackageName();
-        int imageID = holder.itemView.getResources().getIdentifier()
+        int imageID = holder.itemView.getResources().getIdentifier(AnhHienThi, "mipmap", packagename);
+        holder.imageSanpham.setImageResource(imageID);
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return arrayListShop.size();
     }
 
     class shopViewHolder extends RecyclerView.ViewHolder{

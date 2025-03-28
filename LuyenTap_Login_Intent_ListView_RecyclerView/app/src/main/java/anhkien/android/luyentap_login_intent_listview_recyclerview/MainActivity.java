@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (editTextname.getText().toString().equals("AnhKien") && editTextpass.getText().toString().equals("123")){
-                    Intent intentLogin = new Intent(MainActivity.this, )
+                    Intent intentLogin = new Intent(MainActivity.this, PhepTinh.class);
+                    startActivity(intentLogin);
+                } else {
+                    Toast.makeText(MainActivity.this, "Tên hoặc mật khẩu nhập sai! Hãy nhập lại!", Toast.LENGTH_SHORT).show();
                 }
             }
         });

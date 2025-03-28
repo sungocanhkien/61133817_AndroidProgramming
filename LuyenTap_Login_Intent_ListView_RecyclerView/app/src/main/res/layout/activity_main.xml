@@ -53,6 +53,7 @@
             android:layout_marginLeft="20dp"></EditText>
     </LinearLayout>
     <Button
+        android:id="@+id/btnlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
@@ -61,5 +62,7 @@
         android:textSize="25dp"
         android:fontFamily="sans-serif-thin"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="30dp"></Button>
+        android:layout_marginTop="30dp">
+
+    </Button>
 </LinearLayout>

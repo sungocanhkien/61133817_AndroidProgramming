@@ -7,4 +7,74 @@
     android:layout_height="match_parent"
     tools:context=".ThongTinCuaToi">
 
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:gravity="center_horizontal">
+
+            <!-- Ảnh bìa -->
+            <ImageView
+                android:id="@+id/imgBia"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/abia"
+                android:background="@drawable/rounded_corners"
+                android:elevation="8dp" />
+
+            <!-- Ảnh đại diện -->
+            <ImageView
+                android:id="@+id/imgDaiDien"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="-60dp"
+                android:background="@drawable/rounded_corners"
+                android:elevation="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/adaidien" />
+
+            <!-- Thông tin cá nhân -->
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên: "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/tvTruong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trường: "
+                android:textSize="16sp"
+                android:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/tvHocPhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Học phần: "
+                android:textSize="16sp"
+                android:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/tvLopHocPhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lớp học phần: "
+                android:textSize="16sp"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

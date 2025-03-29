@@ -5,7 +5,7 @@ public class Shop {
     String tenAnh;
     String moTa;
 
-    public Shop(String tenAnh, String moTa) {
+    public Shop(int hinhAnh, String tenAnh, String moTa) {
         this.hinhAnh = hinhAnh;
         this.tenAnh = tenAnh;
         this.moTa = moTa;

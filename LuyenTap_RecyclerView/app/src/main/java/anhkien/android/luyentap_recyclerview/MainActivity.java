@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
     }
     ArrayList<Shop> DataforRecyclerView() {
         ArrayList<Shop> dsSP = new ArrayList<>();
-        Shop SP1 = new Shop("giaybongro", "Giày bóng rổ");
+        Shop SP1 = new Shop(R.mipmap.giaybongro,"giaybongro", "Giày bóng rổ");
         dsSP.add(SP1);
-        dsSP.add(new Shop("giaydabong", "Giày đá bóng"));
-        dsSP.add(new Shop("giayden", "Giày đen"));
+        dsSP.add(new Shop(R.mipmap.giaydabong,"giaydabong", "Giày đá bóng"));
+        dsSP.add(new Shop(R.mipmap.giayden,"giayden", "Giày đen"));
         return dsSP;
     }
 }

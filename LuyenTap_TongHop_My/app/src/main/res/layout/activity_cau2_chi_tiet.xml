@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/anhhoathinh"
+    android:background="@drawable/anhgau"
     android:orientation="vertical"
     tools:context=".Cau2_chiTiet">
     <ImageView

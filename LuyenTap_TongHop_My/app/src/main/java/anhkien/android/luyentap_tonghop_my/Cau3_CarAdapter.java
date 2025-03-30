@@ -21,7 +21,7 @@ public class Cau3_CarAdapter extends RecyclerView.Adapter<Cau3_CarAdapter.Cau3_C
     @NonNull
     @Override
     public Cau3_CarViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_car, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.cau3_car, parent, false);
         return new Cau3_CarViewHolder(view);
     }
 

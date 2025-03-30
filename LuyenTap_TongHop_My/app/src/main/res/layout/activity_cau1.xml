@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@drawable/bagau3_nen"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     >
@@ -13,10 +14,10 @@
       android:layout_width="312dp"
       android:layout_height="41dp"
       android:layout_marginStart="60dp"
-      android:background="@android:color/holo_orange_light"
+      android:background="@color/vàng"
       android:gravity="center"
       android:text="PHÉP TỔNG"
-      android:textColor="@android:color/holo_blue_dark"
+      android:textColor="@color/red"
       android:textSize="28dp"
       android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
@@ -43,8 +44,8 @@
       android:layout_marginTop="52dp"
       android:text="Số a"
       android:textColor="@android:color/holo_orange_dark"
-      android:textSize="18sp"
-      android:textStyle=""
+      android:textSize="20sp"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -68,7 +69,7 @@
       android:layout_marginTop="48dp"
       android:text="Số b"
       android:textColor="@android:color/holo_orange_dark"
-      android:textSize="18dp"
+      android:textSize="20dp"
       android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -94,9 +95,13 @@
       android:layout_marginEnd="149dp"
       android:onClick="XuLyCong"
       android:text="Tính Tổng"
+      android:textSize="25dp"
+      android:textStyle="bold"
+      android:backgroundTint="@color/xanhla"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/edtB" />
+      app:layout_constraintTop_toBottomOf="@+id/edtB"
+      tools:ignore="OnClick" />
 
   <TextView
       android:id="@+id/textView4"
@@ -108,7 +113,7 @@
       android:textStyle="bold"
       android:background="@color/white"
       android:textColor="@android:color/holo_green_dark"
-      android:textSize="16sp"
+      android:textSize="20sp"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/btnCong" />
 

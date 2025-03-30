@@ -6,17 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:layout_gravity="center"
     android:background="@drawable/bagau1_nen"
     tools:context=".MainActivity">
-
-    <!-- GridLayout chứa các nút -->
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/welcome"></ImageView>
+    <!-- GridLayout chứa các nút -->
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
         android:background="@drawable/custom_edittext"
         android:gravity="center"
+        android:layout_gravity="center"
         android:text="Chọn câu:"
         android:textColor="@color/xanhdương"
         android:textSize="30sp"
@@ -27,7 +32,8 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+
         android:padding="20dp">
 
         <!-- Câu 1 -->

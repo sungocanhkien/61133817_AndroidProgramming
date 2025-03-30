@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/anhgau"
+    android:background="@drawable/anhgau_nonen"
     android:orientation="vertical"
     tools:context=".Cau2_chiTiet">
     <ImageView
@@ -24,7 +24,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Tên ô tô"
-        android:textColor="@color/white"
+        android:textColor="@color/xanhla"
         android:background="@drawable/custom_edittext"
         android:textSize="24sp"
         android:textStyle="bold"

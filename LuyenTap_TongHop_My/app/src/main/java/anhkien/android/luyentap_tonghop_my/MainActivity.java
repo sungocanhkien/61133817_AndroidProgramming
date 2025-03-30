@@ -50,12 +50,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCau3);
             }
         });
-        buttonC3.setOnClickListener(new View.OnClickListener() {
+        buttonC4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentCau4 = new Intent(MainActivity.this, Cau4.class);
                 startActivity(intentCau4);
-                finish();
             }
         });
     }

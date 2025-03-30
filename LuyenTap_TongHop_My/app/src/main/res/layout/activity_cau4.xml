@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".Cau4">
 
     <ImageView
+        android:id="@+id/image1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/anenbia"
-        android:scaleType="center">
+        android:layout_height="276dp"
+        android:scaleType="center"
+        android:src="@drawable/anhdaidien" />
 
-    </ImageView>
-</LinearLayout>
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/anhdaidien2" />
+
+</FrameLayout>

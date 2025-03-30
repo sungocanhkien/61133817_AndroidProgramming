@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/mo_ta_xe"
             android:textSize="14sp"
-            android:textColor="#666666"
+            android:textColor="@color/cam"
             android:layout_marginTop="5dp">
         </TextView>
     </LinearLayout>

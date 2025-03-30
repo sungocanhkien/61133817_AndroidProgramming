@@ -1,5 +1,6 @@
 package anhkien.android.luyentap_tonghop_my;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +32,16 @@ public class Cau3_CarAdapter extends RecyclerView.Adapter<Cau3_CarAdapter.Cau3_C
         holder.tenxe.setText(xe.getTen());
         holder.hinhAnhXe.setImageResource(xe.getHinhAnhId());
         holder.moTaXe.setText(xe.getMoTa());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), Cau3_CarDetail.class);
+                intent.putExtra("car_name", xe.getTen());
+                intent.putExtra("car_image", xe.getHinhAnhId());
+                intent.putExtra("car_desc", xe.getMoTa());
+                v.getContext().startActivity(intent);
+            }
+        });
     }
 
     @Override

@@ -16,8 +16,8 @@
 
     <ImageView
         android:id="@+id/image2"
-        android:layout_width="134dp"
-        android:layout_height="125dp"
+        android:layout_width="144dp"
+        android:layout_height="135dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="160dp"
         android:background="@drawable/bogoc_anhdaidien"
@@ -30,7 +30,7 @@
         android:layout_width="396dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="300dp"
         android:src="@drawable/biaanh_thongtin" />
 
     <ImageView
@@ -38,7 +38,7 @@
         android:layout_width="411dp"
         android:layout_height="190dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="480dp"
         android:src="@drawable/anh_duoi_thongtin" />
 
 

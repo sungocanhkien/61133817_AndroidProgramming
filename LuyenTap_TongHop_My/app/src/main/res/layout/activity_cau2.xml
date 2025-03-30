@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@drawable/custom_image"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Cau2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="CÁC LOẠI XE OTO"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="30dp"
+        android:textColor="#0625D5"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_edittext">
+    </TextView>
+    <ListView
+        android:id="@+id/dsOto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"></ListView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

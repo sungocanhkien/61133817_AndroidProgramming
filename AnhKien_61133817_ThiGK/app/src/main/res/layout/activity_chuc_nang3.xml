@@ -47,6 +47,7 @@
 
         <ListView
             android:id="@+id/lvCN3"
+            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="581dp"></ListView>
     </LinearLayout>

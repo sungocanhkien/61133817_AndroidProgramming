@@ -61,14 +61,15 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="56dp"
         android:background="@color/white"
         android:text="Năm:"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/ngay"
@@ -121,14 +122,15 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
         android:background="@color/white"
         android:text="Tháng:"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="386dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
         android:id="@+id/thang"
@@ -150,11 +152,11 @@
         android:id="@+id/ktra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="68dp"
         android:text="Kiểm tra "
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/nam"

@@ -10,14 +10,14 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="251dp"
         android:src="@drawable/logo"></ImageView>
     <!-- GridLayout chứa các nút -->
     <TextView
-        android:layout_width="176dp"
-        android:layout_height="69dp"
+        android:layout_width="375dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/custom_edittext"
         android:gravity="center"
         android:text="50 NĂM NGÀY GIẢI PHÓNG MIỀN NAM THỐNG NHẤT ĐẤT NƯỚC"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
 
         android:padding="20dp">
 

@@ -32,7 +32,7 @@
             android:layout_marginTop="44dp"
             android:gravity="center"
             android:padding="8dp"
-            android:text="Quiz"
+            android:text="Bài hát"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"

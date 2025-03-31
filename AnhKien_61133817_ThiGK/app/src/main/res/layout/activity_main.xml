@@ -17,7 +17,7 @@
         android:layout_width="375dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/custom_edittext"
         android:gravity="center"
         android:text="50 NĂM NGÀY GIẢI PHÓNG MIỀN NAM THỐNG NHẤT ĐẤT NƯỚC"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
 
         android:padding="20dp">
 
@@ -111,5 +111,15 @@
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Làm thêm"
+        android:gravity="center"
+        android:id="@+id/lthem"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@color/cam">
+    </TextView>
 
 </LinearLayout>

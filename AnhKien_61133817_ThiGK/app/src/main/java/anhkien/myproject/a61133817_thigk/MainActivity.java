@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     Button buttonCN2, buttonCN3, buttonCN4, buttonMe;
+    TextView textViewlamthem;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         buttonCN2 = findViewById(R.id.btnCN2);
+        textViewlamthem = findViewById(R.id.lthem);
         buttonCN3 = findViewById(R.id.btnCN3);
         buttonCN4 = findViewById(R.id.btnCN4);
         buttonMe = findViewById(R.id.btnMe);
@@ -53,6 +56,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentMe = new Intent(MainActivity.this, AboutMe.class);
                 startActivity(intentMe);
+            }
+        });
+        textViewlamthem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentlamthem = new Intent(MainActivity.this, Cong.class);
+                startActivity(intentlamthem);
             }
         });
     }

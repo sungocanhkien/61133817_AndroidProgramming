@@ -13,6 +13,18 @@
         android:theme="@style/Theme._313_LuyenTap_TongHop"
         tools:targetApi="31">
         <activity
+            android:name=".Cau3_CarDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Cau4"
+            android:exported="false" />
+        <activity
+            android:name=".Cau3"
+            android:exported="false" />
+        <activity
+            android:name=".Cau2"
+            android:exported="false" />
+        <activity
             android:name=".Cau1"
             android:exported="false" />
         <activity

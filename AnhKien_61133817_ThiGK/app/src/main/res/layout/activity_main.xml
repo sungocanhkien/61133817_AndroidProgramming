@@ -1,19 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/welcome"></ImageView>
+    <!-- GridLayout chứa các nút -->
     <TextView
+        android:layout_width="176dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="center"
+        android:text="Chọn câu:"
+        android:textColor="@color/xanhdương"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginTop="10dp"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:padding="20dp">
+
+        <!-- Câu 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:id="@+id/btnCau1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Câu 1"
+                android:textSize="18sp"
+                android:backgroundTint="@color/xanhdương"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Câu 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:id="@+id/btnCau2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Câu 2"
+                android:textSize="18sp"
+                android:backgroundTint="@color/red"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Câu 3 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:id="@+id/btnCau3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Câu 3"
+                android:textSize="18sp"
+                android:backgroundTint="@color/xanhla"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Câu 4 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <Button
+                android:id="@+id/btnCau4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Câu 4"
+                android:textSize="18sp"
+                android:backgroundTint="@color/tím"/>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

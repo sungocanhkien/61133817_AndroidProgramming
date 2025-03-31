@@ -6,7 +6,7 @@
     android:background="@drawable/anhtraitim_nen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cau4">
+    tools:context=".AboutMe">
 
     <ImageView
         android:id="@+id/image1"

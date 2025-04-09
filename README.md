@@ -73,6 +73,10 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/km_to_m_App/Result.PNG" width = "200">
 </div>
 <div>
+  <h4>LuyenTap_RecyclerView: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/LuyenTap_RecyclerView">km_to_m_App</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_RecyclerView/result.PNG" width = "200">
+</div>
+<div>
   <h4>PHÉP NHÂN 1x1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/PhepNhan_1x1">Phép nhân 1x1</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_PhepNhan1.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/PhepNhan_1x1/Result_phepNhan2.PNG" width = "200">

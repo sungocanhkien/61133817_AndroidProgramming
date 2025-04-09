@@ -116,7 +116,7 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/AppLuyenTap_vs_Figma/hinh8.png" width = "200">
 </div>
 <div>
-  <h4>App_LuyenTap_vs_Figma: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/LuyenTap_TongHop_My">App_LuyenTap_vs_Figma</a>/a></h4>
+  <h4>LuyenTap_TongHop_Intent_ListView_RecyclerView: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/LuyenTap_TongHop_My">LuyenTap_TongHop_Intent_ListView_RecyclerView</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_TongHop_My/Result1.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_TongHop_My/Result2.PNG" width = "200">
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_TongHop_My/Result3.PNG" width = "200">

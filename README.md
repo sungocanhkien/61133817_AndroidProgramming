@@ -1,6 +1,6 @@
 
 Các bài tập và bài thực hành về Android
-<h2 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG<br>Mobile Programming</h2>
+<h1 align="center">LẬP TRÌNH THIẾT BỊ DI ĐỘNG<br>Mobile Programming</h1>
 <h2 align="left">BÀI TẬP THỰC HÀNH</h2>
 <div>
   <h4>EX1: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/HelloWorld">EX1_HelloWorld</a>/a></h4>
@@ -62,7 +62,7 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/RecyclerView/result.PNG" width = "200">
 </div>
 
-<h2 align="left">BÀI TẬP TỰ LUYỆN</h2>
+<h1 align="left">BÀI TẬP TỰ LUYỆN</h1>
 <div>
   <h4>App_BMI: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/App_BMI">App_BMI</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/App_BMI/Result_Design.PNG" width = "200">

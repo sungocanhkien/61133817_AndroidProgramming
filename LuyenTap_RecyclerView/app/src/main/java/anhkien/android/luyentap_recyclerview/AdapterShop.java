@@ -27,7 +27,7 @@ public class AdapterShop extends RecyclerView.Adapter<AdapterShop.shopViewHolder
         LayoutInflater giaybongro = LayoutInflater.from(context);
         View viewSP = giaybongro.inflate(R.layout.item_sanpham, parent, false);
         shopViewHolder viewHolder = new shopViewHolder(viewSP);
-        return null;
+        return new shopViewHolder(viewSP);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class AdapterShop extends RecyclerView.Adapter<AdapterShop.shopViewHolder
         holder.textViewMota.setText(shopHienThi.moTa);
         String packagename = holder.itemView.getContext().getPackageName();
         int imageID = holder.itemView.getResources().getIdentifier(String.valueOf(AnhHienThi), "mipmap", packagename);
-        holder.imageSanpham.setImageResource(imageID);
+        holder.imageSanpham.setImageResource(shopHienThi.getHinhAnh());
     }
 
     @Override

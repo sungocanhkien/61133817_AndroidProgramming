@@ -73,7 +73,7 @@ Các bài tập và bài thực hành về Android
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/km_to_m_App/Result.PNG" width = "200">
 </div>
 <div>
-  <h4>LuyenTap_RecyclerView: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/LuyenTap_RecyclerView">km_to_m_App</a>/a></h4>
+  <h4>LuyenTap_RecyclerView: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/LuyenTap_RecyclerView">LuyenTap_RecyclerView</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/LuyenTap_RecyclerView/result.PNG" width = "200">
 </div>
 <div>

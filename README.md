@@ -61,6 +61,21 @@ Các bài tập và bài thực hành về Android
   <h4>RecyclerView: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/RecyclerView">RecyclerView</a>/a></h4>
   <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/RecyclerView/result.PNG" width = "200">
 </div>
+<div>
+  <h4>Fragment_EX: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Fragment_EX">Fragment_EX</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Fragment_EX/Result1.PNG" width = "200">
+</div>
+<div>
+  <h4>Fragment_EX_Dynamically: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Fragment_EX2_Dynamically">Fragment_EX_Dynamically</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Fragment_EX2_Dynamically/Result.PNG" width = "200">
+</div>
+<div>
+  <h4>Fragment_EX3_Dynamically: <a href = "https://github.com/sungocanhkien/61133817_AndroidProgramming/tree/main/Fragment_EX3_Dynamically">Fragment_EX3_Dynamically</a>/a></h4>
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Fragment_EX3_Dynamically/Result1.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Fragment_EX3_Dynamically/Result2.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Fragment_EX3_Dynamically/Result3.PNG" width = "200">
+  <img src = "https://github.com/sungocanhkien/61133817_AndroidProgramming/blob/main/Fragment_EX3_Dynamically/Result4.PNG" width = "200">
+</div>
 
 <h1 align="left">BÀI TẬP TỰ LUYỆN</h1>
 <div>

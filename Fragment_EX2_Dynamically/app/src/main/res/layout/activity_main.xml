@@ -8,10 +8,11 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/frameContent"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#90569B"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+        app:layout_constraintBottom_toTopOf="@+id/frameFooter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -19,7 +20,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frameLayout3"
+        android:id="@+id/frameFooter"
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:background="#46A0E7"

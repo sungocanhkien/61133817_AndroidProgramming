@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="80dp"
     android:background="#0FEFDA"
-    tools:context=".Fragment_Footer">
+    tools:context=".FooterFragment">
 
     <Button
         android:id="@+id/button"

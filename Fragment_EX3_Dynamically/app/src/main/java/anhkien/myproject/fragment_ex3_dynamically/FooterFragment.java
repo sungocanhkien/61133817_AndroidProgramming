@@ -3,6 +3,7 @@ package anhkien.myproject.fragment_ex3_dynamically;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,22 +29,30 @@ public class FooterFragment extends Fragment {
         Button button2 = v.findViewById(R.id.button2);
         Button button3 = v.findViewById(R.id.button3);
 
+        FragmentManager fragmentManager = getChildFragmentManager();
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView_Content, new Fragment1())
+                        .commit();
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView_Content, new Fragment2())
+                        .commit();
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView_Content, new Fragment3())
+                        .commit();
             }
         });
 

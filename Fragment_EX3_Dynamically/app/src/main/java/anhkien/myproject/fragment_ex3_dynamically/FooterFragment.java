@@ -29,7 +29,7 @@ public class FooterFragment extends Fragment {
         Button button2 = v.findViewById(R.id.button2);
         Button button3 = v.findViewById(R.id.button3);
 
-        FragmentManager fragmentManager = getChildFragmentManager();
+        FragmentManager fragmentManager = getParentFragmentManager();
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override

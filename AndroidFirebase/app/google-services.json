@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496932574568",
+    "project_id": "android-fb-40eaa",
+    "storage_bucket": "android-fb-40eaa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496932574568:android:d396714fe39793b2f232dd",
+        "android_client_info": {
+          "package_name": "anhkien.myproject.androidfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_oJjafhWblWS0Dsll2Faylxz53aAiFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

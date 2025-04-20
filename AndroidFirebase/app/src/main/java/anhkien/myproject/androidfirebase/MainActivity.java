@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 String value = dataSnapshot.getValue(String.class);
-                Toast.makeText(MainActivity.this, "Giá trị:", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Giá trị:" + value, Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
-                Toast.makeText(MainActivity.this, "Không thể đọc dữ liệu!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Không thể đọc dữ liệu!", Toast.LENGTH_LONG).show();
             }
         });
     }

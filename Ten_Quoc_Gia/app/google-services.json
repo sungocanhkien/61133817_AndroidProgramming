@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048809055029",
+    "project_id": "ten-quoc-gia-b9567",
+    "storage_bucket": "ten-quoc-gia-b9567.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048809055029:android:d52a24dcbbc9c49b36a27c",
+        "android_client_info": {
+          "package_name": "anhkien.myproject.ten_quoc_gia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4AKResBg9Dq4vCPH_anMLQYK-wE6t5D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

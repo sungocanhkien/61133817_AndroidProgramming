@@ -2,6 +2,7 @@ package anhkien.myproject.fragment_luyentap;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -29,7 +30,15 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                return false;
+                int idDC = item.getItemId();
+                if (idDC == R.id.id_home){
+                    Toast.makeText(MainActivity.this, "HOME", Toast.LENGTH_SHORT).show();
+                } else if (idDC == R.id.id_search) {
+                    Toast.makeText(MainActivity.this, "SEARCH", Toast.LENGTH_SHORT).show();
+                } else if (idDC == R.id.id_profile) {
+                    Toast.makeText(MainActivity.this, "PROFILE", Toast.LENGTH_SHORT).show();
+                } else return false;
+                return true;
             }
         });
     }

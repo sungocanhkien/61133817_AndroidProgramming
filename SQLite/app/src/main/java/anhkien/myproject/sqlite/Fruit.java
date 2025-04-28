@@ -60,5 +60,5 @@ public class Fruit extends AppCompatActivity {
         // 6. Đóng database (nên đóng khi không dùng nữa)
         db.close();
     }
-    
+
 }

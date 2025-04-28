@@ -8,10 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:text="HOA QUẢ"
         android:background="#E5ED9C"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:gravity="center"
         android:textColor="#0AE613"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></TextView>
